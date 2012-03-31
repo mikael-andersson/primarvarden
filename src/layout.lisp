@@ -24,7 +24,7 @@ flow, it accepts K - the continuation parameter."
 (defun make-main-page ()
   "Lays out the main page. It consists of a FLASH widget for showing
 initial message, and a NAVIGATION widget with panes that hold
-employees page and companies page."
+employees page, companies page and projects page."
   (make-instance 'widget :children
 		 (list
 		  (make-instance 'flash :messages
@@ -35,7 +35,8 @@ employees page and companies page."
                                                     Lisp.")))
 		  (make-navigation "Main Menu"
 				   (list "Employees" (make-employees-page) "employees")
-				   (list "Companies" (make-companies-page) "companies")))))
+				   (list "Companies" (make-companies-page) "companies")
+				   (list "Projects" (make-projects-page) "projects")))))
 
 (defun make-employees-page ()
   "Lays out the widgets for the employees page. It consists of a
@@ -61,3 +62,13 @@ single GRIDEDIT widget."
 				 :view 'company-table-view
 				 :item-form-view 'company-form-view))))
 
+(defun make-projects-page ()
+  "Lays out the widgets for the projects page. It consists of a
+single GRIDEDIT widget."
+  (make-instance 'widget :children
+		 (list
+		  (make-instance 'gridedit
+				 :name 'projects-grid
+				 :data-class 'project
+				 :view 'project-table-view
+				 :item-form-view 'project-form-view))))

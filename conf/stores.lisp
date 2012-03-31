@@ -1,5 +1,5 @@
 
-(in-package :weblocks-demo)
+(in-package :primarvarden)
 
 ;;; Multiple stores may be defined. The last defined store will be the
 ;;; default. In the case of weblocks demo static store configuration
@@ -13,7 +13,7 @@
 ;;; Prevalence store...
 (defstore *prevalence-store* :prevalence
   (merge-pathnames (make-pathname :directory '(:relative "data"))
-		   (asdf-system-directory :weblocks-demo)))
+		   (asdf-system-directory :primarvarden)))
 
 ;;; CLSQL store
 ;; (defstore *sql-store* :clsql '("localhost" "test" "username" "password")

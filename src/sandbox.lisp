@@ -1,5 +1,5 @@
 
-(in-package :weblocks-demo)
+(in-package :primarvarden)
 
 ;;; Custom copying from stores to sandbox users
 (defun init-sandbox-store ()
@@ -8,12 +8,13 @@ ensure users have their own non-peristant sandboxes)."
   (let ((sandbox-store (open-store :memory))
 	(fixtures-store (open-store :prevalence
 				    (merge-pathnames (make-pathname :directory '(:relative "data"))
-						     (or (ignore-errors (asdf-system-directory :weblocks-demo))
+						     (or (ignore-errors (asdf-system-directory :primarvarden))
                                                          ".")))))
     (unwind-protect
 	 (progn
 	   (persist-objects sandbox-store (find-persistent-objects fixtures-store 'employee))
 	   (persist-objects sandbox-store (find-persistent-objects fixtures-store 'company))
+	   (persist-objects sandbox-store (find-persistent-objects fixtures-store 'project))
 	   (setf (sandbox-store) sandbox-store))
       (close-store fixtures-store))))
 
@@ -24,3 +25,5 @@ ensure users have their own non-peristant sandboxes)."
 (defmethod class-store ((class-name (eql 'company)))
   (sandbox-store))
 
+(defmethod class-store ((class-name (eql 'project)))
+  (sandbox-store))

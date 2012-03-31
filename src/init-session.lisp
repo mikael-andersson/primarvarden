@@ -28,7 +28,7 @@
 ;; The control is then passed to main page. The main page is never
 ;; expected to answer.
 (defun init-user-session (comp)
-;  (init-sandbox-store)
+  (init-sandbox-store)
   (with-flow comp
     (yield (make-widget #'initial-page))
     (setf (widget-prefix-fn comp) #'render-header)
