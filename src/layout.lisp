@@ -36,7 +36,8 @@ employees page, companies page and projects page."
 		  (make-navigation "Main Menu"
 				   (list "Employees" (make-employees-page) "employees")
 				   (list "Companies" (make-companies-page) "companies")
-				   (list "Projects" (make-projects-page) "projects")))))
+				   (list "Projects" (make-projects-page) "projects")
+				   (list "Units" (make-companies-page) "unit")))))
 
 (defun make-employees-page ()
   "Lays out the widgets for the employees page. It consists of a
@@ -72,3 +73,14 @@ single GRIDEDIT widget."
 				 :data-class 'project
 				 :view 'project-table-view
 				 :item-form-view 'project-form-view))))
+
+(defun make-units-page ()
+  "Lays out the widgets for the units page. It consists of a
+single GRIDEDIT widget."
+  (make-instance 'widget :children
+		 (list
+		  (make-instance 'gridedit
+				 :name 'units-grid
+				 :data-class 'unit
+				 :view 'unit-table-view
+				 :item-form-view 'unit-form-view))))

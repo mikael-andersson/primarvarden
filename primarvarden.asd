@@ -26,7 +26,8 @@
 			       (:file "init-session"
 				      :depends-on ("layout" "snippets" "sandbox"))
 			       (:module model
-					:components ((:file "project")
+					:components ((:file "unit")
+						     (:file "project")
 						     (:file "company")
 						     (:file "address")
 						     (:file "person"

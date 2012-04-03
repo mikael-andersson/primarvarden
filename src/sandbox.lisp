@@ -15,6 +15,7 @@ ensure users have their own non-peristant sandboxes)."
 	   (persist-objects sandbox-store (find-persistent-objects fixtures-store 'employee))
 	   (persist-objects sandbox-store (find-persistent-objects fixtures-store 'company))
 	   (persist-objects sandbox-store (find-persistent-objects fixtures-store 'project))
+	   (persist-objects sandbox-store (find-persistent-objects fixtures-store 'unit))
 	   (setf (sandbox-store) sandbox-store))
       (close-store fixtures-store))))
 

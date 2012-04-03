@@ -13,12 +13,14 @@ available units."
 ;;; Unit
 (defclass unit ()
   ((id :accessor unit-id)
-   (title :accessor unit-title
-	 :initarg :unit-title
-	 :type string)
-   (manager :accessor unit-manager
-	 :initarg :unit-manager
-	 :type string)))
+   (gata :accessor unit-street
+	 :initarg :unit-strett)
+   (postnummer :accessor unit-postal-code
+	 :initarg :unit-postal-code)
+   (ort :accessor unit-city
+	 :initarg :unit-city)
+   (Typ-av-enhet :accessor unit-type
+	 :initarg :unit-type)))
 
 ;;; Table View
 (defview unit-table-view (:type table :inherit-from '(:scaffold unit))
