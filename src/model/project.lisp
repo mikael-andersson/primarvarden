@@ -13,12 +13,12 @@ available projects."
 ;;; Project
 (defclass project ()
   ((id :accessor project-id)
-   (namex :accessor project-namex
-	 :initarg :namex
-	 :type string))
-   (namey :accessor project-namey
-	 :initarg :namey
-	 :type string))
+   (title :accessor project-title
+	 :initarg :project-title
+	 :type string)
+   (manager :accessor project-manager
+	 :initarg :project-manager
+	 :type string)))
 
 ;;; Table View
 (defview project-table-view (:type table :inherit-from '(:scaffold project))
