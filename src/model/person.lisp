@@ -4,14 +4,14 @@
 ;;; Person
 (defclass person ()
   ((id :accessor person-id)
-   (first-name :accessor person-first-name
+   (förnamn :accessor person-first-name
 	       :initarg :first-name)
-   (last-name :accessor person-last-name
+   (efternamn :accessor person-last-name
 	      :initarg :last-name
 	      :type string)
-   (age :accessor person-age
-	:initarg :age
-	:type (or null integer))
+   ;; (ålder :accessor person-age
+   ;; 	:initarg :age
+   ;; 	:type (or null integer))
    (address :initform (make-instance 'address)
 	    :accessor person-address
 	    :initarg :address)))

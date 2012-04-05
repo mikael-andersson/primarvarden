@@ -3,16 +3,12 @@
 
 ;;; Address
 (defclass address ()
-  ((street :initform nil
+  ((gata :initform nil
 	   :accessor address-street
 	   :initarg :street)
-   (city :initform nil
+   (stad :initform nil
 	 :accessor address-city
-	 :initarg :city)
-   (state :initform nil
-	  :accessor address-state
-	  :type (or us-state null)
-	  :initarg :state)))
+	 :initarg :city)))
 
 ;;; Form View
 (defview address-form-view (:type form

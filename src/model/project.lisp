@@ -19,12 +19,17 @@ available projects."
    (handledare :accessor project-manager
 	 :initarg :project-manager
 	 :type string)))
+   ;; (testperson :initform nil
+   ;; 	  :accessor project-state
+   ;; 	  :type (or us-state null)
+   ;; 	  :initarg :state)))
 
 ;;; Table View
 (defview project-table-view (:type table :inherit-from '(:scaffold project))
   (id :hidep t))
 
 ;;; Form View
-(defview project-form-view (:type form :inherit-from '(:scaffold project))
+(defview project-form-view (:type form :inherit-from '(:scaffold project)
+				  :caption "Projekt")
   (id :hidep t))
 

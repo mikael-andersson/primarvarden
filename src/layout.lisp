@@ -35,7 +35,7 @@ employees page, companies page and projects page."
                   ;;                                   Lisp.")))
 		  (make-navigation "Main Menu"
 				   (list "Personer" (make-employees-page) "employees")
-				   (list "Företag" (make-companies-page) "companies")
+				   (list "HSN" (make-companies-page) "companies")
 				   (list "Projekt" (make-projects-page) "projects")
 				   (list "Enheter" (make-units-page) "units")))))
 
