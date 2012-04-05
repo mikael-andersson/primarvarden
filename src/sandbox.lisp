@@ -28,3 +28,6 @@ ensure users have their own non-peristant sandboxes)."
 
 (defmethod class-store ((class-name (eql 'project)))
   (sandbox-store))
+
+(defmethod class-store ((class-name (eql 'unit)))
+  (sandbox-store))

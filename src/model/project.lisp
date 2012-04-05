@@ -13,10 +13,10 @@ available projects."
 ;;; Project
 (defclass project ()
   ((id :accessor project-id)
-   (title :accessor project-title
+   (titel :accessor project-title
 	 :initarg :project-title
 	 :type string)
-   (manager :accessor project-manager
+   (handledare :accessor project-manager
 	 :initarg :project-manager
 	 :type string)))
 

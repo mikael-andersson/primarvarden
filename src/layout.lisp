@@ -27,17 +27,17 @@ initial message, and a NAVIGATION widget with panes that hold
 employees page, companies page and projects page."
   (make-instance 'widget :children
 		 (list
-		  (make-instance 'flash :messages
-				 (list (make-widget "Welcome to weblocks demo - a
-                                                    technology demonstration for a
-                                                    continuations-based web
-                                                    framework written in Common
-                                                    Lisp.")))
+		  ;; (make-instance 'flash :messages
+		  ;; 		 (list (make-widget "Welcome to weblocks demo - a
+                  ;;                                   technology demonstration for a
+                  ;;                                   continuations-based web
+                  ;;                                   framework written in Common
+                  ;;                                   Lisp.")))
 		  (make-navigation "Main Menu"
-				   (list "Employees" (make-employees-page) "employees")
-				   (list "Companies" (make-companies-page) "companies")
-				   (list "Projects" (make-projects-page) "projects")
-				   (list "Units" (make-companies-page) "unit")))))
+				   (list "Personer" (make-employees-page) "employees")
+				   (list "Företag" (make-companies-page) "companies")
+				   (list "Projekt" (make-projects-page) "projects")
+				   (list "Enheter" (make-units-page) "units")))))
 
 (defun make-employees-page ()
   "Lays out the widgets for the employees page. It consists of a
