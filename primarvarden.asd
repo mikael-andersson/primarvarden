@@ -26,13 +26,14 @@
 			       (:file "init-session"
 				      :depends-on ("layout" "snippets" "sandbox"))
 			       (:module model
-					:components ((:file "unit")
+					:components ((:file "unit"
+							    :depends-on ("company"))
 						     (:file "project")
 						     (:file "company")
 						     (:file "address")
 						     (:file "person"
 							    :depends-on ("address"))
 						     (:file "employee"
-							    :depends-on ("person" "company")))))
+							    :depends-on ("person")))))
 		  :depends-on ("primarvarden" conf package))))
 
