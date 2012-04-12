@@ -13,11 +13,6 @@
   (stop-webapp 'primarvarden)
   (stop-weblocks))
 
-;; A sandbox store macro
-(defmacro sandbox-store ()
-  "Access to a sandbox store in the session."
-  `(hunchentoot:session-value 'sandbox-store))
-
 ;; Define our application
 (defwebapp primarvarden :prefix ""
            :autostart t

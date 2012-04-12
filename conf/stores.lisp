@@ -8,7 +8,7 @@
 ;;; load appropriate store code during application startup.
 
 ;;; Memory store
-(defstore *scratch-store* :memory)
+;(defstore *scratch-store* :memory)
 
 ;;; Prevalence store...
 (defstore *prevalence-store* :prevalence

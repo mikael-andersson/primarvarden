@@ -6,8 +6,8 @@
   "Accepts an argument (passed by dropdown choices) and returns all
 available units."
   (declare (ignore arg))
-;  (find-persistent-objects (*prevalence-store*) 'unit
-  (find-persistent-objects (sandbox-store) 'unit
+  (find-persistent-objects (*prevalence-store*) 'unit
+;  (find-persistent-objects (sandbox-store) 'unit
 			   :order-by (cons 'name :asc)))
 
 ;;; Unit

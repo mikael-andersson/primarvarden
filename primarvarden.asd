@@ -21,10 +21,11 @@
 		  :components ((:file "layout"
 				      :depends-on (model))
 			       (:file "snippets")
-			       (:file "sandbox"
-				      :depends-on (model))
+;			       (:file "sandbox"
+;				      :depends-on (model))
 			       (:file "init-session"
-				      :depends-on ("layout" "snippets" "sandbox"))
+				      :depends-on ("layout" "snippets"))
+;				      :depends-on ("layout" "snippets" "sandbox"))
 			       (:module model
 					:components ((:file "unit"
 							    :depends-on ("company"))

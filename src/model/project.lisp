@@ -6,8 +6,8 @@
   "Accepts an argument (passed by dropdown choices) and returns all
 available projects."
   (declare (ignore arg))
-;  (find-persistent-objects (*prevalence-store*) 'project
-  (find-persistent-objects (sandbox-store) 'project
+  (find-persistent-objects (*prevalence-store*) 'project
+;  (find-persistent-objects (sandbox-store) 'project
 			   :order-by (cons 'name :asc)))
 
 ;;; Project
