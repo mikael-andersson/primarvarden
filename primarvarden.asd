@@ -26,10 +26,10 @@
 			       (:file "init-session"
 				      :depends-on ("layout" "snippets"))
 ;				      :depends-on ("layout" "snippets" "sandbox"))
-			       (:module views
-					:components ((:module types
-							      :components ((:file "hsn")))))
-;						     :depends-on (view formview dataview))
+;			       (:module views
+;					:components ((:module types
+;							      :components ((:file "hsn")))))
+;						     :depends-on (view formview dataview)))
 ;					:depends-on ("weblocks" "dependencies" utils))
 			       (:module model
 					:components ((:file "unit"
