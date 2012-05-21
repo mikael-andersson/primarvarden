@@ -13,16 +13,14 @@ available companies."
 ;;; Company
 (defclass company ()
   ((id :accessor company-id)
-   (områdesnamn :accessor company-name
-	 :initarg :name
-	 :type string)))
+   (namn :accessor company-name
+	 :initarg :company-name
+	 :type string)
    ;; (område :initform nil
    ;; 	     :accessor company-industry
    ;; 	     :initarg :industry)))
-   ;; (non-profit :initform nil
-   ;; 	       :accessor company-non-profit-p
-   ;; 	       :initarg :non-profit-p
-   ;; 	       :type boolean)))
+   (ägartyp :accessor company-type
+            :type (member :offentlig :privat))))
 
 ;;; Table View
 (defview company-table-view (:type table :inherit-from '(:scaffold company))
@@ -30,6 +28,6 @@ available companies."
 
 ;;; Form View
 (defview company-form-view (:type form :inherit-from '(:scaffold company)
-				  :caption "HSN")
+				  :caption "Ägare")
   (id :hidep t))
 
