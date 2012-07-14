@@ -16,6 +16,9 @@
 	    :accessor person-address
 	    :initarg :address)))
 
+(defmethod person-name ((person person))
+  (format nil "~A ~A" (person-first-name person) (person-last-name person)))
+
 ;;; Table View
 (defview person-table-view (:type table :inherit-from '(:scaffold person))
   (id :hidep t)

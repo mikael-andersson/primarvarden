@@ -19,8 +19,10 @@
 		  :depends-on ("conf" "package"))
 		 (:module src
 		  :components ((:file "layout"
-				      :depends-on (model))
+				      :depends-on (model "views" "widgets"))
 			       (:file "snippets")
+                   (:file "util")
+                   (:file "views" :depends-on ("model"))
 ;			       (:file "sandbox"
 ;				      :depends-on (model))
 			       (:file "init-session"
@@ -32,6 +34,7 @@
 ;						     :depends-on (view formview dataview)))
 ;					:depends-on ("weblocks" "dependencies" utils))
 			       (:module model
+                    :depends-on ("util")
 					:components ((:file "unit"
 							    :depends-on ("company"))
 						     (:file "project")
@@ -40,6 +43,11 @@
 						     (:file "person"
 							    :depends-on ("address"))
 						     (:file "employee"
-							    :depends-on ("person")))))
+							    :depends-on ("person"))
+                             (:file "project-person" 
+                                :depends-on ("employee" "project"))))
+                   (:module widgets 
+                    :depends-on ("util" "model")
+                    :components ((:file "employees-grid"))))
 		  :depends-on ("primarvarden" conf package))))
 

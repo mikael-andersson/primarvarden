@@ -44,7 +44,7 @@ employees page, companies page and projects page."
 single GRIDEDIT widget."
   (make-instance 'widget :children
 		 (list
-		  (make-instance 'gridedit
+		  (make-instance 'employees-grid
 				 :name 'employees-grid
 				 :drilldown-type :view
 				 :data-class 'employee
