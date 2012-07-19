@@ -13,3 +13,8 @@
                           t))
 
     (find-persistent-objects *default-store* class :filter #'filter-by-values)))
+
+(defmacro capture-weblocks-output (&body body)
+  `(let ((*weblocks-output-stream* (make-string-output-stream)))
+     ,@body 
+     (get-output-stream-string *weblocks-output-stream*)))
