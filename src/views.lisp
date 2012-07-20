@@ -9,7 +9,9 @@
     :reader (lambda (person)
               (let ((person-projects  (employee-projects person)))
                 (when person-projects
-                  (format nil "~{~A<br/>~}" (mapcar #'project-title person-projects)))))))
+                  (format nil "~{~A<br/>~}" (mapcar #'project-title person-projects))))))
+  (emails)
+  (phone-numbers))
 
 ;;; Form View
 (defview project-form-view (:type form :inherit-from '(:scaffold project)

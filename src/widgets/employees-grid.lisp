@@ -37,28 +37,35 @@
            (dataseq-item-ops obj)
            :key #'car))
 
-(let ((session-key  'employee-form-view-showed-repeat-message))
+(let ((session-key  'employee-form-view-showed-repeat-message)
+      (validate-predicate-key 'validate-new-employee-p))
   (defmethod dataedit-create-new-item-widget :around ((grid employees-grid))
-    (delete-webapp-session-value 'employee-form-view-showed-repeat-message)
+    (delete-webapp-session-value session-key)
+    (setf (webapp-session-value validate-predicate-key) t)
     (call-next-method))
 
   ;;; Form View
   (defview employee-form-view (:type form :inherit-from 'person-form-view
                                :satisfies (lambda (&rest args)
-                                            (let ((employees-with-same-name-and-last-name 
-                                                    (find-by-values 'employee 
-                                                                    :förnamn (getf args :förnamn) 
-                                                                    :efternamn (getf args :efternamn))))
-                                              (if (and (not (webapp-session-value session-key)) employees-with-same-name-and-last-name)
-                                                (progn 
-                                                  (setf (webapp-session-value session-key) t)
-                                                  (values nil "There is already employee with same name. Press submit button again to force adding."))
-                                                (progn 
-                                                  (delete-webapp-session-value session-key)
-                                                  t))))
+                                            (if (webapp-session-value validate-predicate-key)
+                                              (let ((employees-with-same-name-and-last-name 
+                                                      (find-by-values 'employee 
+                                                                      :förnamn (getf args :förnamn) 
+                                                                      :efternamn (getf args :efternamn))))
+                                                (if (and (not (webapp-session-value session-key)) employees-with-same-name-and-last-name)
+                                                  (progn 
+                                                    (setf (webapp-session-value session-key) t)
+                                                    (values nil "There is already employee with same name. Press submit button again to force adding."))
+                                                  (progn 
+                                                    (delete-webapp-session-value session-key)
+                                                    (delete-webapp-session-value validate-predicate-key)
+                                                    t)))
+                                              t))
                                :caption "Person")
            (FoUU-roll :present-as (radio :choices '(:kontaktperson :projektledare :verksamhetschef))
-                         :parse-as keyword)))
+                         :parse-as keyword)
+           (emails :present-as textarea :label "Emails (<em>please enter one at a line</em>)")
+           (phone-numbers :present-as textarea :label "Phone numbers (<em>please enter one at a line</em>)")))
 
 ; This update needed to fix bug
 ; source: weblocks-20120305-git/src/views/types/presentations/radio.lisp
