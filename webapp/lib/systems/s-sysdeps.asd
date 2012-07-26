@@ -1,0 +1,1 @@
+/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/s-sysdeps-20101006-http/s-sysdeps.asd

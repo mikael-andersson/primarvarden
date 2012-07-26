@@ -1,0 +1,1 @@
+/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/chunga-1.1.1/chunga.asd

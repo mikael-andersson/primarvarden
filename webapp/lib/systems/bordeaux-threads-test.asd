@@ -1,0 +1,1 @@
+/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/bordeaux-threads-0.8.2/bordeaux-threads-test.asd

@@ -1,0 +1,1 @@
+/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/metabang-bind-20120208-git/metabang-bind.asd

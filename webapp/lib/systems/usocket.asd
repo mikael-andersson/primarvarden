@@ -1,0 +1,1 @@
+/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/usocket-0.5.5/usocket.asd
