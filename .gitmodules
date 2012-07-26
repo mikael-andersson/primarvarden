@@ -1,0 +1,6 @@
+[submodule "quicklisp"]
+	path = quicklisp
+	url = git@mikael.dyndns-home.com:quicklisp
+[submodule "sbcl"]
+	path = sbcl
+	url = git@mikael.dyndns-home.com:sbcl
