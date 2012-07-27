@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/babel-20120407-git/babel-streams.asd
+../../../quicklisp/dists/quicklisp/software/babel-20120407-git/babel-streams.asd

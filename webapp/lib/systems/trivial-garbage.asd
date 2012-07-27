@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/trivial-garbage-20120703-git/trivial-garbage.asd
+../../../quicklisp/dists/quicklisp/software/trivial-garbage-20120703-git/trivial-garbage.asd

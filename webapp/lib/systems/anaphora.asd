@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/anaphora-0.9.4/anaphora.asd
+../../../quicklisp/dists/quicklisp/software/anaphora-0.9.4/anaphora.asd

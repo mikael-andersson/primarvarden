@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/parenscript-2.4/parenscript.test.asd
+../../../quicklisp/dists/quicklisp/software/parenscript-2.4/parenscript.test.asd

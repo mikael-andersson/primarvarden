@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/f-underscore-20101006-darcs/f-underscore.asd
+../../../quicklisp/dists/quicklisp/software/f-underscore-20101006-darcs/f-underscore.asd

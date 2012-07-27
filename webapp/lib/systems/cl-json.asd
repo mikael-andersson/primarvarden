@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/cl-json-20110730-darcs/cl-json.asd
+../../../quicklisp/dists/quicklisp/software/cl-json-20110730-darcs/cl-json.asd

@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/metatilities-20101006-darcs/metatilities-test.asd
+../../../quicklisp/dists/quicklisp/software/metatilities-20101006-darcs/metatilities-test.asd

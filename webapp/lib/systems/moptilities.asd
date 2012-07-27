@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/moptilities-20110110-http/moptilities.asd
+../../../quicklisp/dists/quicklisp/software/moptilities-20110110-http/moptilities.asd

@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/asdf-system-connections-20101006-darcs/asdf-system-connections.asd
+../../../quicklisp/dists/quicklisp/software/asdf-system-connections-20101006-darcs/asdf-system-connections.asd

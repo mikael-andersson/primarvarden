@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/trivial-gray-streams-20110522-cvs/trivial-gray-streams.asd
+../../../quicklisp/dists/quicklisp/software/trivial-gray-streams-20110522-cvs/trivial-gray-streams.asd

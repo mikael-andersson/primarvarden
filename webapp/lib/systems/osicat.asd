@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/osicat-20120407-git/osicat.asd
+../../../quicklisp/dists/quicklisp/software/osicat-20120407-git/osicat.asd

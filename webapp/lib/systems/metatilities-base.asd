@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/metatilities-base-20120520-git/metatilities-base.asd
+../../../quicklisp/dists/quicklisp/software/metatilities-base-20120520-git/metatilities-base.asd

@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/cl-ppcre-2.0.3/cl-ppcre.asd
+../../../quicklisp/dists/quicklisp/software/cl-ppcre-2.0.3/cl-ppcre.asd

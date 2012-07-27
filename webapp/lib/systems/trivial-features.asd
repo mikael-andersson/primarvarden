@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/trivial-features-20120407-git/trivial-features.asd
+../../../quicklisp/dists/quicklisp/software/trivial-features-20120407-git/trivial-features.asd

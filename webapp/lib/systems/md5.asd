@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/md5-20101006-git/md5.asd
+../../../quicklisp/dists/quicklisp/software/md5-20101006-git/md5.asd

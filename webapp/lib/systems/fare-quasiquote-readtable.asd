@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/fare-matcher-20111203-git/fare-quasiquote-readtable.asd
+../../../quicklisp/dists/quicklisp/software/fare-matcher-20111203-git/fare-quasiquote-readtable.asd

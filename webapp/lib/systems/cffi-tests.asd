@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/cffi_0.10.7.1/cffi-tests.asd
+../../../quicklisp/dists/quicklisp/software/cffi_0.10.7.1/cffi-tests.asd

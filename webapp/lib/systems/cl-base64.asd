@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/cl-base64-20101006-git/cl-base64.asd
+../../../quicklisp/dists/quicklisp/software/cl-base64-20101006-git/cl-base64.asd

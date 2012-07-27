@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/html-template-0.9.1/html-template.asd
+../../../quicklisp/dists/quicklisp/software/html-template-0.9.1/html-template.asd

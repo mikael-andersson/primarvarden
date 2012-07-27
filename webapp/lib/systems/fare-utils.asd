@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/fare-utils-20120703-git/fare-utils.asd
+../../../quicklisp/dists/quicklisp/software/fare-utils-20120703-git/fare-utils.asd

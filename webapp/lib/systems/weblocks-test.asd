@@ -1,1 +1,1 @@
-/home/mikael/Common Lisp/primarvarden/quicklisp/dists/quicklisp/software/weblocks-20120703-git/weblocks-test.asd
+../../../quicklisp/dists/quicklisp/software/weblocks-20120305-git/weblocks-test.asd
