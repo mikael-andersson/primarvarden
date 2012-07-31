@@ -1,0 +1,62 @@
+#!/bin/bash
+
+VALID_USER="cl-user"
+SCRIPT="/home/$VALID_USER/www/script/server"
+SOCKET_DIR="/var/run/screen/S-$VALID_USER"
+SESSION_NAME="primarvarden"
+
+function socket()
+{
+    socket=`find "$SOCKET_DIR" -type d -empty`
+    if [ -z "$socket" ]
+    then
+	echo "Web app already running."
+	screen -ls
+	return 1
+    fi
+    return 0
+}
+
+#
+# Function that checks the invoking user.
+#
+check_user()
+{
+  USER=`id -un`
+  if [ "$USER" != "$VALID_USER" ]
+  then
+      echo "You need to invoke the script as $VALID_USER.";
+  fi
+
+}
+
+check_user
+
+if [ ! -f "$SCRIPT" ]
+then
+  echo "Cannot find the script. Make sure the path is OK."
+fi
+
+case "$1" in
+    start)
+	socket
+	if [ $? -eq 0 ]
+	then
+	    screen -d -m -S "$SESSION_NAME" "$SCRIPT" home
+	    echo "Service started."
+	fi
+        ;;
+         
+    stop)
+	screen -r "$SESSION_NAME" -X quit
+	echo "Service stopped."
+        ;;
+         
+    status)
+            socket
+            ;;
+    *)
+            echo $"Usage: $0 {start|stop|status}"
+            exit 1
+ 
+esac
