@@ -18,3 +18,6 @@
   `(let ((*weblocks-output-stream* (make-string-output-stream)))
      ,@body 
      (get-output-stream-string *weblocks-output-stream*)))
+
+(defun all-of (cls &key order-by)
+  (find-persistent-objects *default-store* cls :order-by order-by))
