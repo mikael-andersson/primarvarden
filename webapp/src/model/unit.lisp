@@ -22,28 +22,31 @@ available units."
 	 :initarg :unit-postal-code)
    (ort :accessor unit-city
 	 :initarg :unit-city)
+   (ägare :accessor unit-company
+	  :initarg :company
+	  :type company)
    (typ-av-enhet :accessor unit-typ-av-enhet
 	     :initarg :typ-av-enhet)))
 
 ;;; Table View
 (defview unit-table-view (:type table :inherit-from '(:scaffold unit))
-;  (hsn :reader (compose #'company-name #'unit-hsn))
+  (ägare :reader (compose #'company-name #'unit-company))
   (id :hidep t))
 
 ;;; Data View
 (defview unit-data-view (:type data :inherit-from '(:scaffold unit))
   (id :hidep t)
-;  (company :reader (compose #'company-name #'unit-hsn))
+  (ägare :reader (compose #'company-name #'unit-company))
   (typ-av-enhet))
 
 ;;; Form View
 (defview unit-form-view (:type form :inherit-from '(:scaffold unit)
 			       :caption "Enhet")
- ; (hsn :present-as (dropdown :choices #'all-companies
-;				 :label-key #'company-name)
-;	   :parse-as (object-id :class-name 'company)
-;	   :reader (compose #'object-id #'unit-hsn)
-;	   :requiredp t)
+  (ägare :present-as (dropdown :choices #'all-companies
+				 :label-key #'company-name)
+	   :parse-as (object-id :class-name 'company)
+	   :reader (compose #'object-id #'unit-company)
+	   :requiredp t)
   (id :hidep t)
   (typ-av-enhet :present-as (radio :choices '(:vårdcentral :barnavårdcentral :mödravårdcentral :annan))
 		:parse-as keyword))
