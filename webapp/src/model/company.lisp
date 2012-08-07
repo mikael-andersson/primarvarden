@@ -6,7 +6,7 @@
   "Accepts an argument (passed by dropdown choices) and returns all
 available companies."
   (declare (ignore arg))
-  (find-persistent-objects (*prevalence-store*) 'company
+  (find-persistent-objects *prevalence-store* 'company
 ;  (find-persistent-objects (sandbox-store) 'company
 			   :order-by (cons 'name :asc)))
 
