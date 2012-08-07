@@ -1,0 +1,1 @@
+../../../quicklisp/dists/quicklisp/software/stefil-20101107-darcs/stefil.asd

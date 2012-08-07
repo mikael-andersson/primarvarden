@@ -1,0 +1,1 @@
+../../../quicklisp/local-projects/drakma/drakma.asd

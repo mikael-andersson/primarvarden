@@ -1,0 +1,1 @@
+../../../quicklisp/dists/quicklisp/software/cxml-20110619-git/cxml.asd

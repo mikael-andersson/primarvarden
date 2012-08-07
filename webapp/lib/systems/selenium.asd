@@ -1,0 +1,1 @@
+../../../quicklisp/local-projects/cl-selenium-0.4/selenium.asd

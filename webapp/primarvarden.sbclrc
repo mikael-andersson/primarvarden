@@ -26,6 +26,8 @@
 (swank:create-server :dont-close t :port *swank-port*)
 
 (asdf:oos 'asdf:load-op 'primarvarden)
+(asdf:oos 'asdf:load-op 'hu.dwim.asdf)
+(asdf:oos 'asdf:load-op 'primarvarden-tests)
 
 (setf hunchentoot:*catch-errors-p* nil)
 (primarvarden:start-primarvarden :port *port*)

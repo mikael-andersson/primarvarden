@@ -1,0 +1,5 @@
+cd lib/systems 
+ln -s ../../../quicklisp/dists/quicklisp/software/*/*.asd . 2>/dev/null 
+ln -s ../../../quicklisp/local-projects/*/*.asd . 2>/dev/null
+echo "Ok"
+exit 0

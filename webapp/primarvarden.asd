@@ -51,3 +51,26 @@
                     :components ((:file "employees-grid"))))
 		  :depends-on ("primarvarden" conf package))))
 
+(defpackage #:primarvarden-tests-asd
+  (:use :cl :asdf))
+
+(in-package :primarvarden-tests-asd)
+
+(defsystem primarvarden-tests
+     :name "primarvarden-tests"
+     :version "0.0.1"
+     :maintainer ""
+     :author ""
+     :licence ""
+     :description "primarvarden-tests"
+     :depends-on (:primarvarden :hu.dwim.stefil :selenium)
+     :components (
+         (:file "primarvarden-tests")
+         (:module tests :depends-on ("primarvarden-tests")
+          :components 
+          ((:file "util" :depends-on ("parameters"))
+           (:file "parameters")
+           (:file "all-tests" :depends-on ("util" "non-selenium"))
+           (:file "non-selenium" :depends-on ("util"))
+           (:file "other" :depends-on ("util"))))))
+

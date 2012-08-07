@@ -1,0 +1,12 @@
+= Primarvarden app = 
+
+== script directory ==
+*script/server* - run server
+*script/server-screen* run server as a daemon
+*script/update-libraries-links* link all asds from quicklisp systems directory and local-projects directory to lib/systems. Does not overwrite links
+
+== data directory ==
+Database snapshots directory
+
+== test-data directory ==
+Directory to save snapshots with sample data if schema changed.

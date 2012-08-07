@@ -1,0 +1,1 @@
+../../../quicklisp/dists/quicklisp/software/closure-common-20101107-git/closure-common.asd
