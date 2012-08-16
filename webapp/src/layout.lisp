@@ -41,16 +41,40 @@ employees page, companies page and projects page."
 
 (defun make-employees-page ()
   "Lays out the widgets for the employees page. It consists of a
-single GRIDEDIT widget."
-  (make-instance 'widget :children
-		 (list
-		  (make-instance 'employees-grid
-				 :name 'employees-grid
-				 :drilldown-type :view
-				 :data-class 'employee
-				 :view 'employee-table-view
-				 :item-data-view 'employee-data-view
-				 :item-form-view 'employee-form-view))))
+   single GRIDEDIT widget."
+  (let* ((name)
+         (widget  
+           (make-instance 'employees-grid
+                          :name 'employees-grid
+                          :drilldown-type :view
+                          :on-query (lambda (widget order limit &key countp) 
+                                      (let ((items (if (zerop (length name))
+                                                     (all-of 'employee :order-by order :range limit)
+                                                     (flet ((similar (item)
+                                                              (search (string-downcase name) (string-downcase (person-name item)))))
+                                                       (find-by 'employee #'similar :order-by order :range limit)))))
+                                        (if countp
+                                          (length items)
+                                          items)))
+                          :data-class 'employee
+                          :view 'employee-table-view
+                          :item-data-view 'employee-data-view
+                          :item-form-view 'employee-form-view)))
+    (setf (pagination-items-per-page (dataseq-pagination-widget widget)) 5)
+    (make-instance 'widget :children
+                   (list
+                     (make-quickform (defview nil (:type form :persistp nil :buttons '((:submit . "Search") (:cancel . "Clear search")) :caption "Search by name")
+                                              (name :present-as input))
+                                     :answerp nil
+                                     :on-success (lambda (form object)
+                                                   (setf name (slot-value object 'name))
+                                                   (mark-dirty widget))
+                                     :on-cancel (lambda (form)
+                                                  (setf (slot-value (dataform-data form) 'name) nil)
+                                                  (setf name nil)
+                                                  (mark-dirty form)
+                                                  (mark-dirty widget)))
+                     widget))))
 
 (defun make-companies-page ()
   "Lays out the widgets for the companies page. It consists of a
