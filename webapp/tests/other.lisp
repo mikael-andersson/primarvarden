@@ -14,5 +14,5 @@
     (is-request-path "/primarvarden/employees")
     (do-click-and-wait "css=input[value=Add]")
     (do-fill-person-add-form)
-    (do-click-and-wait "name=submit")
+    (do-click-and-wait "css=input[value=Submit]")
     (is-flash-message-shown "Added employee.")))
