@@ -1,0 +1,45 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.15:$
+Arch:x86-gcc3:$
+
+[PLUGINS]
+libnpgoogletalk.so:$
+/opt/google/talkplugin/libnpgoogletalk.so:$
+:$
+1323737518000:1:1:$
+Version: 2.6.1.0:$
+Google Talk Plugin:$
+1
+0:application/googletalk:Google Talk Plugin:googletalk:$
+libnpgtpo3dautoplugin.so:$
+/opt/google/talkplugin/libnpgtpo3dautoplugin.so:$
+:$
+1323737518000:1:1:$
+Google Talk Plugin Video Accelerator version:0.1.44.14:$
+Google Talk Plugin Video Accelerator:$
+1
+0:application/vnd.gtpo3d.auto:O3D MIME::$
+libflashplayer.so:$
+/home/oz/.mozilla/plugins/libflashplayer.so:$
+:$
+1322711770000:1:5:$
+Shockwave Flash 10.3 r181:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+libflashplayer.so:$
+/usr/lib/flashplugin-nonfree/libflashplayer.so:$
+:$
+1320134325000:1:5:$
+Shockwave Flash 11.1 r102:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+
+[INVALID]
+/home/oz/.mozilla/plugins/libnpjp2.so:$
+0:$

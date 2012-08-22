@@ -10,3 +10,6 @@ Database snapshots directory
 
 == test-data directory ==
 Directory to save snapshots with sample data if schema changed.
+
+== Testing with selenium ==
+To make tests pass start selenium with *script/selenium-server* before running tests.

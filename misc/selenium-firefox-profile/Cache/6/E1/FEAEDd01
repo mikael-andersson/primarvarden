@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/"
+      xmlns:media="http://search.yahoo.com/mrss/">
+   <id>http://www.bbc.co.uk/ukrainian/index.xml</id>
+   <title xml:lang="uk">BBCUkrainian.com | Головна сторінка</title>
+   <updated>2012-04-10T14:27:51+03:00</updated>
+   <link rel="self" href="http://www.bbc.co.uk/ukrainian/index.xml"/>
+   <author>
+      <name>BBC Ukrainian</name>
+      <email>bbc.ukrainian@bbc.co.uk</email>
+      <uri>http://www.bbcukrainian.com</uri>
+   </author>
+   <generator>http://www.bbcukrainian.com</generator>
+   <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+   <category xml:lang="uk" term="homepage" label="Головна сторінка"/>
+   <logo>http://www.bbc.co.uk/ukrainian/images/gel/rss_logo.gif</logo>
+   <rights xml:lang="uk">Права Бі-Бі-Сі застережено2012</rights>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-10:16635320</id>
+      <dc:identifier>16635320</dc:identifier>
+      <updated>2012-04-10T14:02:45+03:00</updated>
+      <published>2012-04-10T12:22:24+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="politics" label="Політика"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Опозиція: заборона подвійного мандату вигідна владі</title>
+      <summary xml:lang="uk">Опозиція заявляє, що рішення КС було ухвалене за вказівкою президента. Партія регіонів доводить, що рішення суду доводить вищість закону над політичними домовленостями.</summary>
+      <dc:subject>політика, политика</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120410_elex_court_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120410_elex_court_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/11/02/111102123507_election_ukraine_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/11/02/111102123507_election_ukraine_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/11/02/111102123507_election_ukraine_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Вибори" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/11/02/111102123507_election_ukraine_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/02/120201_election_new_law_sd.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/02/120201_election_new_law_sd.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/02/01/120201133612_law_election_ukraine_book_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/02/01/120201133612_law_election_ukraine_book_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/02/01/120201133612_law_election_ukraine_book_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Закон про вибори парламенту " width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/02/01/120201133612_law_election_ukraine_book_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2011/11/111118_new_law_election_sd.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2011/11/111118_new_law_election_sd.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/11/02/111102123507_election_ukraine_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/11/02/111102123507_election_ukraine_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/11/02/111102123507_election_ukraine_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Виборча дільниця" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/11/02/111102123507_election_ukraine_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-10:16636723</id>
+      <dc:identifier>16636723</dc:identifier>
+      <updated>2012-04-10T14:22:58+03:00</updated>
+      <published>2012-04-10T13:25:46+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="politics" label="Політика"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Насильство в Сирії перекреслило надії на перемир'я</title>
+      <summary xml:lang="uk">В день, коли режим Асада мав припинити вогонь, у містах Сирії сталися нові сутички.</summary>
+      <dc:subject>світ, за рубежом</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120410_syria_violence_it.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120410_syria_violence_it.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410075224_syria_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410075224_syria_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410075224_syria_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="У вівторок танки мали покинути сирійські міста" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410075224_syria_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120410_syria_deadline_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120410_syria_deadline_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409020234_city_of_homs_144x81_reuters_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409020234_city_of_homs_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409020234_city_of_homs_144x81_reuters_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="США: немає ознак втілення Сирією мирного плану " width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409020234_city_of_homs_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120409_turkey_syria_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120409_turkey_syria_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406070943_syrian_refugees_144x81_afpgetty_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406070943_syrian_refugees_144x81_afpgetty_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406070943_syrian_refugees_144x81_afpgetty_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Туреччина протестує проти обстрілів з Сирії" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406070943_syrian_refugees_144x81_afpgetty_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120409_syria_demands_rejected_ko.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120409_syria_demands_rejected_ko.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409020234_city_of_homs_144x81_reuters_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409020234_city_of_homs_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409020234_city_of_homs_144x81_reuters_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Сирія" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409020234_city_of_homs_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-10:16632398</id>
+      <dc:identifier>16632398</dc:identifier>
+      <updated>2012-04-10T11:09:04+03:00</updated>
+      <published>2012-04-10T10:02:58+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="politics" label="Політика"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">АП: у вівторок ухвалять новий КПК </title>
+      <summary xml:lang="uk">Радник президента України Андрій Портнов каже, що переконаний в тому, що парламент ухвалить новий Кримінальний процесуальний кодекс 10 квітня. Його розгляд у другому читанні внесений до порядку денного Ради.</summary>
+      <dc:subject>політика, политика</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120410_criminal_code_preview_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120410_criminal_code_preview_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/10/19/111019100923_ukraine_parliament_voting_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/10/19/111019100923_ukraine_parliament_voting_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/10/19/111019100923_ukraine_parliament_voting_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Рада" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/10/19/111019100923_ukraine_parliament_voting_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/02/120210_new_criminal_code_reaction_sd.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/02/120210_new_criminal_code_reaction_sd.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/10/11/111011172054_tymoshenko_avtozak_reuters_144x81_reuters_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/10/11/111011172054_tymoshenko_avtozak_reuters_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/10/11/111011172054_tymoshenko_avtozak_reuters_144x81_reuters_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Автозак біля суду " width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/10/11/111011172054_tymoshenko_avtozak_reuters_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/02/120208_criminal_code_rada_humanization_sd.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/02/120208_criminal_code_rada_humanization_sd.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/10/18/111018150326_yanukovych_tymoshenko_ukraine_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/10/18/111018150326_yanukovych_tymoshenko_ukraine_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/10/18/111018150326_yanukovych_tymoshenko_ukraine_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Віктор Янукович та Юлія Тимошенко " width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/10/18/111018150326_yanukovych_tymoshenko_ukraine_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16624780</id>
+      <dc:identifier>16624780</dc:identifier>
+      <updated>2012-04-09T20:02:58+03:00</updated>
+      <published>2012-04-09T19:16:37+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="politics" label="Політика"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">У КВУ називають розподіл одномандатних округів "справедливим"</title>
+      <summary xml:lang="uk">Центральна виборча комісія встановила кількість одномандатних округів у кожному регіоні України для виборів до Верховної Ради, які відбудуться у жовтні. Комітет виборців України каже, що розподіл не викликає запитань.</summary>
+      <dc:subject>політика, политика</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120409_elections_districts_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120409_elections_districts_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/10/31/111031111244_ukraine_election_day_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/10/31/111031111244_ukraine_election_day_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/10/31/111031111244_ukraine_election_day_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="ЦВК встановила кількість одномандатних округів у кожному регіоні"
+                    width="144"
+                    height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/10/31/111031111244_ukraine_election_day_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-06:16573270</id>
+      <dc:identifier>16573270</dc:identifier>
+      <updated>2012-04-09T17:01:43+03:00</updated>
+      <published>2012-04-06T14:23:22+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="politics" label="Політика"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Тягнибок : Єдиний список опозиції потрібен нашим конкурентам</title>
+      <summary xml:lang="uk">Лідер партії "Свобода" Олег Тягнибок заявив, що опозиція не повинна поспішати із оприлюдненням кандидатів у депутати парламенту, оскільки влада може тиснути на них.</summary>
+      <dc:subject>політика, политика</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120406_tyagnybok_interview_sd.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120406_tyagnybok_interview_sd.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406114151_tyagnybok_oleg_svoboda_party_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406114151_tyagnybok_oleg_svoboda_party_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406114151_tyagnybok_oleg_svoboda_party_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Олег Тягнибок, лідер &#34;Свободи&#34;" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406114151_tyagnybok_oleg_svoboda_party_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16621082</id>
+      <dc:identifier>16621082</dc:identifier>
+      <updated>2012-04-09T16:54:03+03:00</updated>
+      <published>2012-04-09T16:33:56+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="politics" label="Політика"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Прокуратура просить для Іващенка шість років </title>
+      <summary xml:lang="uk">Адвокат колишнього в.о. міністра оборони Валерія Іващенка, Борис Нечипоренко, заявив, що прокуратура просить для його підзахисного шість років ув'язнення. Вирок планують оголосити 12 квітня.</summary>
+      <dc:subject>іващенко, здоров'я, суд, вовк</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120409_ivashchenko_prosecutors_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120409_ivashchenko_prosecutors_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313112651_ivashchenko_valeriy_in_court_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313112651_ivashchenko_valeriy_in_court_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313112651_ivashchenko_valeriy_in_court_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Валерій Іващенко" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313112651_ivashchenko_valeriy_in_court_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/03/120313_ivashchenko_pecherskiy_court_sd.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/03/120313_ivashchenko_pecherskiy_court_sd.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313112651_ivashchenko_valeriy_in_court_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313112651_ivashchenko_valeriy_in_court_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313112651_ivashchenko_valeriy_in_court_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Валерій Іващенко у суді " width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313112651_ivashchenko_valeriy_in_court_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/03/120307_wives_prisoners_yanukovych_meeting_sd.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/03/120307_wives_prisoners_yanukovych_meeting_sd.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/02/120302091252_tymoshenko_lutsenko_together_ukraine_144x81_afp_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/02/120302091252_tymoshenko_lutsenko_together_ukraine_144x81_afp_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/02/120302091252_tymoshenko_lutsenko_together_ukraine_144x81_afp_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Юлія Тимошенко та Юрій Луценко " width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/02/120302091252_tymoshenko_lutsenko_together_ukraine_144x81_afp_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16616744</id>
+      <dc:identifier>16616744</dc:identifier>
+      <updated>2012-04-09T15:20:27+03:00</updated>
+      <published>2012-04-09T13:27:59+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="politics" label="Політика"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Міноборони заперечує проблеми українських миротворців у ДРК</title>
+      <summary xml:lang="uk">Міноборони заперечує, що українські миротворці в Демократичній Республіці Конго не отримують зарплати, їжі та озброєнь. Генерал Скибінецький каже, що Київ відправляє своїх військових туди, куди не їдуть інші держави.</summary>
+      <dc:subject>політика</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120409_congo_peacekeepers_ok.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120409_congo_peacekeepers_ok.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/22/120322142049_un_peacekeepers_africa_ukraine_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/22/120322142049_un_peacekeepers_africa_ukraine_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/22/120322142049_un_peacekeepers_africa_ukraine_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Українські миротворці на службі багатьох країн Африки" width="144"
+                    height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/22/120322142049_un_peacekeepers_africa_ukraine_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16620211</id>
+      <dc:identifier>16620211</dc:identifier>
+      <updated>2012-04-09T16:29:11+03:00</updated>
+      <published>2012-04-09T15:56:40+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="politics" label="Політика"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Справу лікаря СІЗО, де помер Магнітський, закривають</title>
+      <summary xml:lang="uk">Слідчий комітет РФ припинив кримінальне переслідування одного з двох обвинувачених у справі про смерть юриста Сергія Магнітського через закінчення терміну давності.</summary>
+      <dc:subject>магнітський, справа магнітського</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120408_magnitskyi_doctor_case_ko.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120408_magnitskyi_doctor_case_ko.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905061623_magnitsky_mother_144x81_ap_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905061623_magnitsky_mother_144x81_ap_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905061623_magnitsky_mother_144x81_ap_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Похорон Сергія Магнітського" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905061623_magnitsky_mother_144x81_ap_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16613327</id>
+      <dc:identifier>16613327</dc:identifier>
+      <updated>2012-04-09T10:30:27+03:00</updated>
+      <published>2012-04-09T10:24:08+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="politics" label="Політика"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Мінськ і Москва пробують відновити авіасполучення</title>
+      <summary xml:lang="uk">Авіаційні відомства Росії та Білорусі сперечаються з приводу частоти і рентабельності рейсів між двома країнами.</summary>
+      <dc:subject>авіасполучення, москва, мінська, авіарейси</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120408_minsk_moscow_avia_ko.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120408_minsk_moscow_avia_ko.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/26/120326081748_belavia_144x81_belavia.by_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/26/120326081748_belavia_144x81_belavia.by_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/26/120326081748_belavia_144x81_belavia.by_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Бєлавіа" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/26/120326081748_belavia_144x81_belavia.by_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-10:16634002</id>
+      <dc:identifier>16634002</dc:identifier>
+      <updated>2012-04-10T11:46:53+03:00</updated>
+      <published>2012-04-10T11:27:15+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="multimedia" label="Мультимедіа"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Туристична індустрія може "зїсти" акул</title>
+      <summary xml:lang="uk">Соціальні мережі на Філіппінах обурені поведінкою дівчини, яка позує на фото, стоячи на спині китової акули.</summary>
+      <dc:subject>відео, світ, за рубежом, видео, розваги</dc:subject>
+      <link rel="alternate" type="text/html" title="video"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/04/120410_whale_sharks_ride_video_as.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410082928_whale_shark_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410082928_whale_shark_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410082928_whale_shark_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="акули" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410082928_whale_shark_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-10:16631930</id>
+      <dc:identifier>16631930</dc:identifier>
+      <updated>2012-04-10T09:57:41+03:00</updated>
+      <published>2012-04-10T09:28:34+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="multimedia" label="Мультимедіа"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Обама котив яйця і віджимався</title>
+      <summary xml:lang="uk">Американський президент Барак Обама та перша леді Мішель провели щорічний захід у Білому домі на відзнаку Великодня.</summary>
+      <dc:subject>цікавинки</dc:subject>
+      <link rel="alternate" type="text/html" title="video"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/04/120410_obama_easter_video_ak.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410063151_obama_pushups_afp_144x81_afp_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410063151_obama_pushups_afp_144x81_afp_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410063151_obama_pushups_afp_144x81_afp_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Обама" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410063151_obama_pushups_afp_144x81_afp_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16625496</id>
+      <dc:identifier>16625496</dc:identifier>
+      <updated>2012-04-09T20:24:03+03:00</updated>
+      <published>2012-04-09T20:02:22+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="multimedia" label="Мультимедіа"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Британські вчені беруться за нетипові теми</title>
+      <summary xml:lang="uk">Чому повідомлення про різноманітні цікаві дослідження вже зі слів "британські вчені" часто викликають посмішку?</summary>
+      <dc:subject>відео, наука, дослідження</dc:subject>
+      <link rel="alternate" type="text/html" title="video"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/04/120409_british_research_original_as.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409171002_shnobel_prize__144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409171002_shnobel_prize__144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409171002_shnobel_prize__144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="британські вчені" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409171002_shnobel_prize__144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16624432</id>
+      <dc:identifier>16624432</dc:identifier>
+      <updated>2012-04-09T19:15:48+03:00</updated>
+      <published>2012-04-09T18:55:31+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="multimedia" label="Мультимедіа"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Північнокорейська ракета вже на старті</title>
+      <summary xml:lang="uk">Японія і Південна Корея заявили про готовність збити ракету, якщо вона загрожуватиме їхнім територіям.</summary>
+      <dc:subject>відео, світ, за рубежом</dc:subject>
+      <link rel="alternate" type="text/html" title="video"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/04/120409_nothern_korea_rocket_readiness_video_as.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409143747_north_korea_144x81_reuters_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409143747_north_korea_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409143747_north_korea_144x81_reuters_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="ракета КНДР" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409143747_north_korea_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16619893</id>
+      <dc:identifier>16619893</dc:identifier>
+      <updated>2012-04-09T16:03:06+03:00</updated>
+      <published>2012-04-09T15:42:51+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="multimedia" label="Мультимедіа"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Cлідами Титаніка: круїз за тим самим маршрутом</title>
+      <summary xml:lang="uk">Із порту англійського міста Саутгемптон вийшов круїзний корабель "Балморал", який пройде маршрутом легендарного "Титаніка", що затонув сто років тому - 14 квітня 1912 року.</summary>
+      <dc:subject>цікавинки</dc:subject>
+      <link rel="alternate" type="text/html" title="video"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/04/120409_titanic_balmoral_new_to_use_ak.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409123042_titanic_balmoral_afp_144x81_afp_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409123042_titanic_balmoral_afp_144x81_afp_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409123042_titanic_balmoral_afp_144x81_afp_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Пасажири на тлі судна &#34;Балморал&#34;" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409123042_titanic_balmoral_afp_144x81_afp_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16613094</id>
+      <dc:identifier>16613094</dc:identifier>
+      <updated>2012-04-09T10:13:46+03:00</updated>
+      <published>2012-04-09T10:10:39+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="multimedia" label="Мультимедіа"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Телеведучого закидали яйцями та йогуртом</title>
+      <summary xml:lang="uk">Телеведучого у Греції закидали яйцями та йогуртом демонстранти, які вдерлись до студії.</summary>
+      <dc:subject>цікавинки</dc:subject>
+      <link rel="alternate" type="text/html" title="video"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/04/120409_eggs_greece_throwing_ak.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409070202_greece_talk_show_144x81_evn_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409070202_greece_talk_show_144x81_evn_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409070202_greece_talk_show_144x81_evn_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Греція, ведучий" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409070202_greece_talk_show_144x81_evn_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-06:16577239</id>
+      <dc:identifier>16577239</dc:identifier>
+      <updated>2012-04-06T18:26:28+03:00</updated>
+      <published>2012-04-06T16:39:45+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="multimedia" label="Мультимедіа"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Як у фільмі: змія в кабіні пілота</title>
+      <summary xml:lang="uk">Брейден Бленнехарсетт був у кабіні пілота, коли помітив незнайомого пасажира - змію.</summary>
+      <dc:subject>цікавинки</dc:subject>
+      <link rel="alternate" type="text/html" title="video"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/04/120406_snake_plane_video_ak.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406133838_snake_plane_144x81_evn_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406133838_snake_plane_144x81_evn_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406133838_snake_plane_144x81_evn_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Змія" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406133838_snake_plane_144x81_evn_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-06:16576308</id>
+      <dc:identifier>16576308</dc:identifier>
+      <updated>2012-04-06T16:16:51+03:00</updated>
+      <published>2012-04-06T16:05:58+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="multimedia" label="Мультимедіа"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">25 років росіянину Буту за торгівлю зброєю</title>
+      <summary xml:lang="uk">Американський суд засудив російського торговця зброєю Віктора Бута до 25 років ув’язнення.</summary>
+      <dc:subject>світ, життя, відео</dc:subject>
+      <link rel="alternate" type="text/html" title="video"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/04/120406_victor_bout_jailed_video_dp.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406121757_bout_144x81_ap_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406121757_bout_144x81_ap_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406121757_bout_144x81_ap_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Бут" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406121757_bout_144x81_ap_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-10:16632049</id>
+      <dc:identifier>16632049</dc:identifier>
+      <updated>2012-04-10T09:42:47+03:00</updated>
+      <published>2012-04-10T09:37:44+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="pressreview" label="Преса"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">ЗМІ про "сирний" конфлікт: Україна готова до компромісів</title>
+      <summary xml:lang="uk">Про перспективи спільного з ЄС авіапростору та вирішення сирного конфлікту з Росією, другі роковини Смоленської трагедії та проблеми українського дубляжу читайте в огляді української преси за вівторок, 10 квітня.</summary>
+      <dc:subject/>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/press_review/2012/04/120410_press_tuesday_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/press_review/2012/04/120410_press_tuesday_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/03/120403164253_cheese_144x81_reuters_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/03/120403164253_cheese_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/03/120403164253_cheese_144x81_reuters_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="ЗМІ про &#34;сирний&#34; конфлікт: Україна готова до компромісів" width="144"
+                    height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/03/120403164253_cheese_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16614204</id>
+      <dc:identifier>16614204</dc:identifier>
+      <updated>2012-04-09T11:21:23+03:00</updated>
+      <published>2012-04-09T11:10:01+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="pressreview" label="Преса"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">FT: відкат Києва від демократії розчаровує Захід</title>
+      <summary xml:lang="uk">Редактор "Financial Times" з питань Східної Європи відвідав Україну і зробив висновок, що жовтневі вибори можуть стати найважливішими від часів Помаранчевої революції.</summary>
+      <dc:subject>преса</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/press_review/2012/04/120409_ft_buckleu_ukraine_backslide_ak.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/press_review/2012/04/120409_ft_buckleu_ukraine_backslide_ak.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/29/120329135815_yanukovych_barrozu_rompei_ukraine_eu_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/29/120329135815_yanukovych_barrozu_rompei_ukraine_eu_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/29/120329135815_yanukovych_barrozu_rompei_ukraine_eu_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Віктор Янукович провів минулого місяця зустріч із європейськими лідерами на ядерному саміті у Сеулі. Запитань залишилось більше, ніж відповідей"
+                    width="144"
+                    height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/29/120329135815_yanukovych_barrozu_rompei_ukraine_eu_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/03/120328_obama_yanukovych_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/03/120328_obama_yanukovych_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/28/120328070509_yanukovych_obama_144x81_www.president.gov.ua_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/28/120328070509_yanukovych_obama_144x81_www.president.gov.ua_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/28/120328070509_yanukovych_obama_144x81_www.president.gov.ua_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Обама за 4 хв встиг нагадати Януковичу про Тимошенко" width="144"
+                    height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/28/120328070509_yanukovych_obama_144x81_www.president.gov.ua_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/03/120327_yanukovych_seoul_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/03/120327_yanukovych_seoul_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/27/120327082107_yanukovych_144x81_getty_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/27/120327082107_yanukovych_144x81_getty_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/27/120327082107_yanukovych_144x81_getty_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Янукович зустрівся з Обамою на саміті в Сеулі" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/27/120327082107_yanukovych_144x81_getty_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2011-12-01:14246347</id>
+      <dc:identifier>14246347</dc:identifier>
+      <updated>2012-03-27T17:30:33+03:00</updated>
+      <published>2011-12-01T20:01:36+02:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="indepth" label="Докладно"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Євро-2012: свято футболу і шанс для України</title>
+      <summary xml:lang="uk">Україна і Польща спільно прийматимуть найкращі національні збірні Європи. Чи зуміють господарі впоратися із завданням?</summary>
+      <dc:subject>футбол, євро, спорт</dc:subject>
+      <link rel="alternate" type="text/html" title="cluster"
+            href="http://www.bbc.co.uk/ukrainian/in_depth/euro_2012_cluster.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-cluster"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/in_depth/euro_2012_cluster.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201192906_euro_2012_ball_144x81_afp_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201192906_euro_2012_ball_144x81_afp_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201192906_euro_2012_ball_144x81_afp_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="М'яч на відбірковому матчі Євро-2012" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201192906_euro_2012_ball_144x81_afp_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/sport/2011/12/111201_euro2012_draw_preview_ak.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/sport/2011/12/111201_euro2012_draw_preview_ak.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201181839_euro2012_kyiv_kiev_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201181839_euro2012_kyiv_kiev_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201181839_euro2012_kyiv_kiev_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Євро" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201181839_euro2012_kyiv_kiev_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/entertainment/2011/12/111130_dogs_euro2012_rl.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/entertainment/2011/12/111130_dogs_euro2012_rl.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201194012_homeless_dogs_in_kyiv_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201194012_homeless_dogs_in_kyiv_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201194012_homeless_dogs_in_kyiv_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Безпритульні собаки Євро-2012" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201194012_homeless_dogs_in_kyiv_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/news/2011/12/111201_lviv_euro2012_tb_er.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/news/2011/12/111201_lviv_euro2012_tb_er.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201142151_lviv_centre_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201142151_lviv_centre_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201142151_lviv_centre_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Центр Львова" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/12/01/111201142151_lviv_centre_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-08:16600574</id>
+      <dc:identifier>16600574</dc:identifier>
+      <updated>2012-04-08T12:42:16+03:00</updated>
+      <published>2012-04-08T12:18:12+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="politics" label="Політика"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Податківці кажуть, що не вилучали техніку в студії українського дубляжу</title>
+      <summary xml:lang="uk">Богдан Батрух, власник студії дубляжу "Le Doyen" у Києві, розповів ВВС Україна свою версію подій про конфлікт студії, яка займається українським дубляжем, з податковою міліцією.</summary>
+      <dc:subject>Le Doyen, батрух, податкова, студія дубляжу</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/04/120408_le_doyen_interview_ko.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/04/120408_le_doyen_interview_ko.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/08/120408092037_le_doyen_144x81_ledoyen.com.ua_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/08/120408092037_le_doyen_144x81_ledoyen.com.ua_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/08/120408092037_le_doyen_144x81_ledoyen.com.ua_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Студія &#34;Le Doyen&#34; " width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/08/120408092037_le_doyen_144x81_ledoyen.com.ua_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/02/120224_oscar_genres_it.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/multimedia/2012/02/120224_oscar_genres_it.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/02/24/120224163237_oscar_statuette_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/02/24/120224163237_oscar_statuette_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/02/24/120224163237_oscar_statuette_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Які фільми подобаються &#34;Оскару&#34;" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/02/24/120224163237_oscar_statuette_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/entertainment/2011/11/111104_best_films_rl.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/entertainment/2011/11/111104_best_films_rl.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/11/04/111104142529_2001_a_space_odyssey_144x81_mgmemi_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/11/04/111104142529_2001_a_space_odyssey_144x81_mgmemi_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/11/04/111104142529_2001_a_space_odyssey_144x81_mgmemi_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Космічна одіссея" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/11/04/111104142529_2001_a_space_odyssey_144x81_mgmemi_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-06:16574080</id>
+      <dc:identifier>16574080</dc:identifier>
+      <updated>2012-04-09T11:21:21+03:00</updated>
+      <published>2012-04-06T14:44:36+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="entertainment" label="Життя"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Пенсіонери припиняють ходити до лікарів</title>
+      <summary xml:lang="uk">Абсолютна більшість літніх людей в Україні не можуть дозволити собі належне лікування та придбати необхідні медикаменти.</summary>
+      <dc:subject>україна</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/entertainment/2012/04/120406_elderly_people_health_rl.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/entertainment/2012/04/120406_elderly_people_health_rl.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406134633_pensioner_ukraine_144x81_unian_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406134633_pensioner_ukraine_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406134633_pensioner_ukraine_144x81_unian_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="пенсіонери ліки" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/06/120406134633_pensioner_ukraine_144x81_unian_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-10:16634080</id>
+      <dc:identifier>16634080</dc:identifier>
+      <updated>2012-04-10T12:15:39+03:00</updated>
+      <published>2012-04-10T11:30:14+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="entertainment" label="Життя"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Facebook купує сервіс Instagram за мільярд доларів</title>
+      <summary xml:lang="uk">Facebook оголосив, що купує сервіс Instagram для обміну фотографіями за один мільярд доларів.</summary>
+      <dc:subject>світ, за рубежом, технології</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/entertainment/2012/04/120410_facebook_instagram_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/entertainment/2012/04/120410_facebook_instagram_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410091000_instragram_144x81_getty_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410091000_instragram_144x81_getty_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410091000_instragram_144x81_getty_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Facebook купує сервіс Instagram за мільярд доларів" width="144"
+                    height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/10/120410091000_instragram_144x81_getty_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-10:16632224</id>
+      <dc:identifier>16632224</dc:identifier>
+      <updated>2012-04-10T11:16:41+03:00</updated>
+      <published>2012-04-10T09:49:55+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="sport" label="Спорт"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Формула-1: Гран-прі Бахрейну можуть скасувати</title>
+      <summary xml:lang="uk">За менше, ніж два тижні до початку Гран-прі Бахрейну виникли сумніви щодо гарантування безпеки у тій країні.</summary>
+      <dc:subject>спорт</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/sport/2012/04/120410_fi_bahrain_possible_cancellation_ak.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/sport/2012/04/120410_fi_bahrain_possible_cancellation_ak.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/18/120318065255_formula_1_racing_australia_grand_prix_144x81_getty_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/18/120318065255_formula_1_racing_australia_grand_prix_144x81_getty_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/18/120318065255_formula_1_racing_australia_grand_prix_144x81_getty_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Формула-1" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/18/120318065255_formula_1_racing_australia_grand_prix_144x81_getty_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-03-12:16083784</id>
+      <dc:identifier>16083784</dc:identifier>
+      <updated>2012-03-12T17:04:49+02:00</updated>
+      <published>2012-03-12T14:46:09+02:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category term="external"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Як в Україні заграють з виборцями?</title>
+      <summary xml:lang="uk">Що ближче вибори, то більше соціальних ініціатив у кандидатів до органів влади всіх рівнів. З якими випадками стикалися ви чи ваші родичі?</summary>
+      <dc:subject>форум, вибори, кандидат в депутати</dc:subject>
+      <link rel="alternate" type="text/html" title="external-page"
+            href="http://newsforums.bbc.co.uk/ws/uk/thread.jspa?forumID=15347">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/12/120312150138_buckwheat_hrechka_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/12/120312150138_buckwheat_hrechka_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/12/120312150138_buckwheat_hrechka_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="гречка стає стратегічним виборчим продуктом" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/12/120312150138_buckwheat_hrechka_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-03-05:15958460</id>
+      <dc:identifier>15958460</dc:identifier>
+      <updated>2012-03-05T16:43:56+02:00</updated>
+      <published>2012-03-05T16:40:14+02:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category term="external"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Чого чекати Росії з новим президентом?</title>
+      <summary xml:lang="uk">Прем'єр-міністр Росії Володимир Путін після підрахунку Центрвиборчкомом 99% бюлетенів набирає 63,75% на виборах президента. Нинішній 6-річний термін буде для Володимира Путіна вже третім. </summary>
+      <dc:subject>Володимир Путін, вибори, форум, ваша думка</dc:subject>
+      <link rel="alternate" type="text/html" title="external-page"
+            href="http://newsforums.bbc.co.uk/ws/uk/thread.jspa?forumID=15325">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305094938_putin_medvedev_144x81_reuters_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305094938_putin_medvedev_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305094938_putin_medvedev_144x81_reuters_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Володимир Путін" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305094938_putin_medvedev_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/03/120305_putin_profile_rl.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/03/120305_putin_profile_rl.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305060638__58872692_014168893-1.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305060638__58872692_014168893-1.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305060638__58872692_014168893-1.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Володимир Путін - політичний портрет" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305060638__58872692_014168893-1.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/politics/2012/03/120305_putin_russia_osce_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/politics/2012/03/120305_putin_russia_osce_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305123459_putin_144x81_ap_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305123459_putin_144x81_ap_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305123459_putin_144x81_ap_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="ОБСЄ називає вибори в Росії &#34;перекошеними&#34; на користь Путіна" width="144"
+                    height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/05/120305123459_putin_144x81_ap_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+      <link rel="related" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/03/120305_gallery_russia_votes_as.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="related" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/multimedia/2012/03/120305_gallery_russia_votes_as.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/04/120304132438_elections_gallery_144x81_reuters_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/04/120304132438_elections_gallery_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/04/120304132438_elections_gallery_144x81_reuters_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="вибори в Росії" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/04/120304132438_elections_gallery_144x81_reuters_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2011-09-05:12667753</id>
+      <dc:identifier>12667753</dc:identifier>
+      <updated>2011-09-05T17:49:43+03:00</updated>
+      <published>2011-09-05T17:49:43+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category term="external"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Тема дня</title>
+      <summary xml:lang="uk">Тема дня</summary>
+      <dc:subject>Тема дня</dc:subject>
+      <link rel="alternate" type="text/html" title="external-podcast"
+            href="http://www.bbc.co.uk/podcasts/series/topic">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905141324_ukrainian_topic_of_the_day_144.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905141324_ukrainian_topic_of_the_day_144.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905141324_ukrainian_topic_of_the_day_144.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Тема дня" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905141324_ukrainian_topic_of_the_day_144.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2011-09-05:12667117</id>
+      <dc:identifier>12667117</dc:identifier>
+      <updated>2011-09-05T17:16:55+03:00</updated>
+      <published>2011-09-05T17:16:55+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category term="external"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Уроки англійської</title>
+      <summary xml:lang="uk">Уроки англійської </summary>
+      <dc:subject>Уроки англійської</dc:subject>
+      <link rel="alternate" type="text/html" title="external-podcast"
+            href="http://www.bbc.co.uk/podcasts/series/ukranianenglish">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905141246_ukrainian_english_lessons_144.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905141246_ukrainian_english_lessons_144.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905141246_ukrainian_english_lessons_144.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Уроки англійської" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/09/05/110905141246_ukrainian_english_lessons_144.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16621237</id>
+      <dc:identifier>16621237</dc:identifier>
+      <updated>2012-04-09T17:04:06+03:00</updated>
+      <published>2012-04-09T16:41:27+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="learningenglish" label="Уроки англійської"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Говоримо про спорт: чому дівчата люблять дзюдо</title>
+      <summary xml:lang="uk">Бі-Бі-Сі пропонує черговий урок англійської, де можна позайматися дзюдо та вивчити нові слова та вирази.</summary>
+      <dc:subject>урок, англійська</dc:subject>
+      <link rel="alternate" type="text/html" title="video"
+            href="http://www.bbc.co.uk/ukrainian/learning_english/2012/04/120409_le_menezes_talking_sport_ak.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409135402_menezes_le_bbc_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409135402_menezes_le_bbc_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409135402_menezes_le_bbc_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Менезес" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409135402_menezes_le_bbc_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-04:16533696</id>
+      <dc:identifier>16533696</dc:identifier>
+      <updated>2012-04-04T16:38:46+03:00</updated>
+      <published>2012-04-04T16:19:28+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="learningenglish" label="Уроки англійської"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Відеослова у новинах: найвищий хмарочос у ЄС</title>
+      <summary xml:lang="uk">Бі-Бі-Сі пропонує черговий урок англійської мови із використанням слів, які часто вживають у новинах.</summary>
+      <dc:subject>урок, англійська</dc:subject>
+      <link rel="alternate" type="text/html" title="video"
+            href="http://www.bbc.co.uk/ukrainian/learning_english/2012/04/120404_le_videowords_house_london_ak.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/02/120402163058_sp_shard_144x81_pa_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/02/120402163058_sp_shard_144x81_pa_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/02/120402163058_sp_shard_144x81_pa_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Хмарочос" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/02/120402163058_sp_shard_144x81_pa_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2011-09-02:12623341</id>
+      <dc:identifier>12623341</dc:identifier>
+      <updated>2011-09-02T14:28:54+03:00</updated>
+      <published>2011-09-02T14:28:31+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category term="external"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Школа журналістики Бі-Бі-Сі</title>
+      <summary xml:lang="uk">Добірка стилістичних порад щодо вживання мови </summary>
+      <dc:subject>Школа журналістики Бі-Бі-Сі</dc:subject>
+      <link rel="alternate" type="text/html" title="external-page"
+            href="http://www.bbc.co.uk/ukrainian/specials/1458_cojo_ukrainian/">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2010/09/29/100929102603_cojo_144.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2010/09/29/100929102603_cojo_144.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2010/09/29/100929102603_cojo_144.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Школа журналістики Бі-Бі-Сі" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2010/09/29/100929102603_cojo_144.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2011-09-02:12623781</id>
+      <dc:identifier>12623781</dc:identifier>
+      <updated>2011-09-02T14:43:44+03:00</updated>
+      <published>2011-09-02T14:43:44+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category term="external"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Ваші новини, ваші фотографії</title>
+      <summary xml:lang="uk">Ваші новини, ваші фотографії</summary>
+      <dc:subject>Ваші новини, ваші фотографії</dc:subject>
+      <link rel="alternate" type="text/html" title="external-page"
+            href="http://www.bbc.co.uk/ukrainian/institutional/2011/09/000001_ugc_upload.shtml">
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/05/17/110517172241_camera_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2011/05/17/110517172241_camera_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/05/17/110517172241_camera_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Ваші новини, ваші фотографії" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2011/05/17/110517172241_camera_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16625887</id>
+      <dc:identifier>16625887</dc:identifier>
+      <updated>2012-04-09T20:47:01+03:00</updated>
+      <published>2012-04-09T20:25:03+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="science" label="Наука"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Первісні люди "крали" мамонтів у левів - гіпотеза учених</title>
+      <summary xml:lang="uk">Науковці кажуть, що знайдені недавно рештки волохатого мамонта, які дуже гарно збереглися, можуть свідчити про те, що прадавні люди "викрадали" мамонтів у левів, які на них полювали.</summary>
+      <dc:subject>світ, за рубежом, життя, цікавинки</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/science/2012/04/120409_mammoth_yuka_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/science/2012/04/120409_mammoth_yuka_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313115603_wooly_mammoth_144x81_sciencephotolibrary_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313115603_wooly_mammoth_144x81_sciencephotolibrary_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313115603_wooly_mammoth_144x81_sciencephotolibrary_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Первісні люди &#34;крали&#34; мамонтів у левів - гіпотеза учених" width="144"
+                    height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/03/13/120313115603_wooly_mammoth_144x81_sciencephotolibrary_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-07:16588931</id>
+      <dc:identifier>16588931</dc:identifier>
+      <updated>2012-04-07T13:44:51+03:00</updated>
+      <published>2012-04-07T12:50:56+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="science" label="Наука"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Українська астрономія: обсерваторій багато, потенціалу – менше</title>
+      <summary xml:lang="uk">Директор Головної астрономічної обсерваторії НАН України Ярослав Яцків розповів ВВС Україна, над чим працюють українські астрономи, що цікавого відбудеться на небі у червні і хто з українських депутатів має телескоп. </summary>
+      <dc:subject>астрономія, ярослав яцків, обсерваторія</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/science/2012/04/120407_yatskiv_interview_astronomy_ko.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/science/2012/04/120407_yatskiv_interview_astronomy_ko.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/07/120407104931_telescope_144x81_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/07/120407104931_telescope_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/07/120407104931_telescope_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Телескоп" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/07/120407104931_telescope_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-06:16581132</id>
+      <dc:identifier>16581132</dc:identifier>
+      <updated>2012-04-06T20:35:41+03:00</updated>
+      <published>2012-04-06T20:06:59+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="science" label="Наука"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Війна майбутнього: безпілотниками і "на відстані"</title>
+      <summary xml:lang="uk">Американські та британські офіцери вчаться управлінню ними на військово-повітряній базі у штаті Нью-Мексико. Тут вони шукають відповіді на нове питання військової науки: що означає вести війну на відстані?</summary>
+      <dc:subject>технології, світ, за рубежом</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/science/2012/04/120406_us_drones_dt.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/science/2012/04/120406_us_drones_dt.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/05/120405102326_drones_uk_144.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/05/120405102326_drones_uk_144.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/05/120405102326_drones_uk_144.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Війна майбутнього - війна &#34;на відстані&#34;" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/05/120405102326_drones_uk_144.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-05:16552535</id>
+      <dc:identifier>16552535</dc:identifier>
+      <updated>2012-04-05T17:35:41+03:00</updated>
+      <published>2012-04-05T14:31:21+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="science" label="Наука"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">Тварини і секс: дивні ритуали парування в природі</title>
+      <summary xml:lang="uk">Загальний ажіотаж навколо панд у Шотландії завершився розчаруванням: панденятка не буде. А чекати наступної "ночі пристрасті" треба рік.</summary>
+      <dc:subject>природа, панди, цікавинки</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/science/2012/04/120405_panda_sex_it.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/science/2012/04/120405_panda_sex_it.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/05/120405113804_giant_panda_mating_habits_144x81_ericbacceganpl_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/05/120405113804_giant_panda_mating_habits_144x81_ericbacceganpl_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/05/120405113804_giant_panda_mating_habits_144x81_ericbacceganpl_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="Панду треба спершу нагодувати" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/05/120405113804_giant_panda_mating_habits_144x81_ericbacceganpl_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcukrainian.com,2012-04-09:16618483</id>
+      <dc:identifier>16618483</dc:identifier>
+      <updated>2012-04-09T15:04:24+03:00</updated>
+      <published>2012-04-09T14:43:21+03:00</published>
+      <category xml:lang="uk" term="ukrainian" label="ukrainian"/>
+      <category xml:lang="uk" term="multimedia" label="Мультимедіа"/>
+      <rights>not restricted</rights>
+      <title xml:lang="uk">100 років Кім Ір Сену: КНДР готова до запуску ракети</title>
+      <summary xml:lang="uk">Незважаючи на спротив міжнародної спільноти, Пхеньян каже, що запустить ракету та супутник на відзнаку століття від дня народження Кім Ір Сена.</summary>
+      <dc:subject>світ, фото, галерея</dc:subject>
+      <link rel="alternate" type="text/html" title="story"
+            href="http://www.bbc.co.uk/ukrainian/multimedia/2012/04/120409_north_korea_rocket_to_use_ak.shtml">
+         <xhtml:link xmlns:xhtml="http://www.w3.org/1999/xhtml" rel="alternate" media="handheld"
+                     title="mobile-story"
+                     type="text/html"
+                     href="http://www.bbc.co.uk/ukrainian/mobile/multimedia/2012/04/120409_north_korea_rocket_to_use_ak.shtml"/>
+         <media:content>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409091347_korea_144.jpg"
+                             width="106"
+                             height="60">
+               <img alt="" width="106" height="60"
+                    src="http://wscdn.bbc.co.uk/worldservice/ic/106x60/wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409091347_korea_144.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409091347_korea_144.jpg"
+                             width="144"
+                             height="81">
+               <img alt="КНДР" width="144" height="81"
+                    src="http://wscdn.bbc.co.uk/worldservice/assets/images/2012/04/09/120409091347_korea_144.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+</feed>
