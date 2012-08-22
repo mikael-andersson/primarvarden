@@ -1,0 +1,86 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          Primärvården
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start, stop and checks status of Primärvården web application.
+# Description:       
+#                    
+### END INIT INFO
+
+# Author:
+#   Mikael Andersson <mikael@gnutiken.se>
+
+USER="cl-user"
+PATH=/bin:/usr/bin
+DESC="Primärvården web application"
+NAME=primarvarden
+DAEMON="/home/$USER/www/script/server"
+DAEMON_ARGS="home"
+SCRIPTNAME="/etc/init.d/$NAME"
+SOCKET_DIR="/var/run/screen/S-$USER"
+
+# Exit if the package is not installed
+if [ ! -x "$DAEMON" ] ; then
+        echo "No startup script found, check script at the following path: $DAEMON"
+        exit 0
+fi
+
+# Define LSB log_* functions.
+# Depend on lsb-base (>= 3.2-14) to ensure that this file is present
+# and status_of_proc is working.
+. /lib/lsb/init-functions
+
+service_stopped()
+{
+    socket=`sudo -u $USER find "$SOCKET_DIR" ! -empty`
+#    if [ -z "$socket" ]
+    if [ -z $(sudo -u $USER find "$SOCKET_DIR" -not -empty -type d) ]
+    then
+	echo "Web app is not running."
+    else
+	echo "Web app is running."
+	sudo -u $USER screen -ls
+	return 1
+    fi
+    return 0
+}
+
+case "$1" in
+  start)
+        if service_stopped && sudo -u $USER screen -d -m -S $NAME $DAEMON $DAEMON_ARGS; then
+            log_daemon_msg "Starting web app" "$NAME"
+            log_end_msg 0
+        else
+            log_end_msg 1
+        fi
+	;;
+  stop)
+        log_daemon_msg "Stopping web app" "$NAME"
+	sudo -u $USER screen -r $NAME -X quit
+        if service_stopped ; then
+            log_end_msg 0
+        else
+            log_end_msg 1
+        fi
+
+	;;
+    status)
+	service_stopped
+       ;;
+    restart)
+        $0 stop
+        $0 start
+    ;;
+    
+    *)
+        log_action_msg "Usage: /etc/init.d/primarvarden {start|stop|status|restart}"
+        exit 1
+    ;;
+esac
+
+exit 0
+
+:
