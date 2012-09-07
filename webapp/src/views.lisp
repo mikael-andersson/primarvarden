@@ -31,4 +31,5 @@
                          (render-link 
                            (make-action (lambda (&rest args)
                                           (weblocks:redirect "/primarvarden/employees")))
-                           "Add some persons to projects"))))))
+                           "Add some persons to project"))))))
+
