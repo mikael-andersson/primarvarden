@@ -13,18 +13,18 @@ available projects."
 (defclass project ()
   ((id :accessor project-id)
    (titel :accessor project-title
-	 :initarg :project-title
-	 :type string)
+	  :initarg :project-title
+	  :type string)
    (handledare :accessor project-manager
-	 :initarg :project-manager
-	 :type string)))
-   ;; (testperson :initform nil
-   ;; 	  :accessor project-state
-   ;; 	  :type (or us-state null)
-   ;; 	  :initarg :state)))
+	       :initarg :project-manager
+	       :type string)))
 
 ;;; Table View
 (defview project-table-view (:type table :inherit-from '(:scaffold project))
+  (id :hidep t))
+
+;;; Form View
+(defview project-form-view (:type form :inherit-from '(:scaffold project))
   (id :hidep t))
 
 (defun get-projects-titles ()

@@ -13,9 +13,10 @@ available units."
 ;;; Unit
 (defclass unit ()
   ((id :accessor unit-id)
-  (område :accessor unit-hsn
-	    :initarg :area-name
-	    :type (or hsn null))
+   (enhetsnamn :accessor unit-name
+	    :initarg :unit-name)
+   (område :accessor unit-hsn
+	    :initarg :area-name)
    (gata :accessor unit-street
 	 :initarg :unit-street)
    (postnummer :accessor unit-postal-code
@@ -30,23 +31,27 @@ available units."
 
 ;;; Table View
 (defview unit-table-view (:type table :inherit-from '(:scaffold unit))
-  (ägare :reader (compose #'company-name #'unit-company))
-  (id :hidep t))
+  (id :hidep t)
+  (gata :hidep t)
+  (postnummer :hidep t)
+  (ort :hidep t)
+  (ägare :hidep t))
+
 
 ;;; Data View
 (defview unit-data-view (:type data :inherit-from '(:scaffold unit))
-  (id :hidep t)
-  (ägare :reader (compose #'company-name #'unit-company))
-  (typ-av-enhet))
+  (id :hidep t))
 
 ;;; Form View
 (defview unit-form-view (:type form :inherit-from '(:scaffold unit)
 			       :caption "Enhet")
+  (id :hidep t)
+  (område :present-as (dropdown :choices '(:Hisingen :Väster :Nordost :Södra-södra-Bohuslän :Norra-södra-Bohuslän))
+	  :parse-as keyword)
   (ägare :present-as (dropdown :choices #'all-companies
 				 :label-key #'company-name)
 	   :parse-as (object-id :class-name 'company)
 	   :reader (compose #'object-id #'unit-company)
 	   :requiredp t)
-  (id :hidep t)
-  (typ-av-enhet :present-as (radio :choices '(:vårdcentral :barnavårdcentral :mödravårdcentral :annan))
+  (typ-av-enhet :present-as (dropdown :choices '(:vårdcentral :barnavårdcentral :mödravårdcentral :rehab :annan))
 		:parse-as keyword))

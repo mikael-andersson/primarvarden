@@ -9,9 +9,8 @@
    (efternamn :accessor person-last-name
 	      :initarg :last-name
 	      :type string)
-   ;; (ålder :accessor person-age
-   ;; 	:initarg :age
-   ;; 	:type (or null integer))
+   (akademisk-grad :accessor person-academic-grade
+	      :initarg :academic-grade)
    (address :initform (make-instance 'address)
 	    :accessor person-address
 	    :initarg :address)))
@@ -22,6 +21,7 @@
 ;;; Table View
 (defview person-table-view (:type table :inherit-from '(:scaffold person))
   (id :hidep t)
+  (akademisk-grad :hidep t)
   (address :type mixin
 	   :view '(table address))
   (street :hidep t)
@@ -37,5 +37,7 @@
 (defview person-form-view (:type form :inherit-from '(:scaffold person))
   (id :hidep t)
   (address :type mixin
-	   :view 'address-form-view))
+	   :view 'address-form-view)
+  (akademisk-grad :present-as (dropdown :choices '(:Disputerad :Docent :Professor :Doktorand :Predoktorand :Kandidat))
+	  :parse-as keyword))
 
