@@ -46,7 +46,6 @@ employees page, companies page and projects page."
          (widget  
            (make-instance 'employees-grid
                           :name 'employees-grid
-                          :drilldown-type :view
                           :on-query (lambda (widget order limit &key countp) 
                                       (let ((items (if (zerop (length name))
                                                      (all-of 'employee :order-by order :range limit)
