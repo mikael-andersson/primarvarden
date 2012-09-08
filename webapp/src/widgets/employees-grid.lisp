@@ -64,8 +64,8 @@
                                :caption "Person")
            (FoUU-roll :present-as (radio :choices '(:kontaktperson :projektledare :verksamhetschef))
                          :parse-as keyword)
-           (emails :present-as textarea :label "Emails (<em>please enter one at a line</em>)")
-           (phone-numbers :present-as textarea :label "Phone numbers (<em>please enter one at a line</em>)")))
+           (emails :present-as textarea :label "E-postadresser (<em>fyll i en per rad</em>)")
+           (phone-numbers :present-as textarea :label "Telefonnummer (<em>fyll i ett per rad</em>)")))
 
 ; This update needed to fix bug
 ; source: weblocks-20120305-git/src/views/types/presentations/radio.lisp
