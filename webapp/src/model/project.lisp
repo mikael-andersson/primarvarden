@@ -16,8 +16,7 @@ available projects."
 	  :initarg :project-title
 	  :type string)
    (handledare :accessor project-manager
-	       :initarg :project-manager
-	       :type string)))
+	       :initarg :project-manager)))
 
 ;;; Table View
 (defview project-table-view (:type table :inherit-from '(:scaffold project))
