@@ -46,6 +46,7 @@ employees page, companies page and projects page."
          (widget  
            (make-instance 'employees-grid
                           :name 'employees-grid
+                          :drilldown-type :view
                           :on-query (lambda (widget order limit &key countp) 
                                       (let ((items (if (zerop (length name))
                                                      (all-of 'employee :order-by order :range limit)
@@ -93,8 +94,10 @@ single GRIDEDIT widget."
 		 (list
 		  (make-instance 'gridedit
 				 :name 'projects-grid
+				 :drilldown-type :view
 				 :data-class 'project
 				 :view 'project-table-view
+				 :item-data-view 'project-data-view
 				 :item-form-view 'project-form-view))))
 
 (defun make-units-page ()
@@ -104,6 +107,8 @@ single GRIDEDIT widget."
 		 (list
 		  (make-instance 'gridedit
 				 :name 'units-grid
+				 :drilldown-type :view
 				 :data-class 'unit
 				 :view 'unit-table-view
+				 :item-data-view 'unit-data-view
 				 :item-form-view 'unit-form-view))))

@@ -13,6 +13,19 @@
   (emails)
   (phone-numbers))
 
+(defview project-data-view (:type data :inherit-from '(:scaffold project)
+				  :caption "Projekt")
+  (id :hidep t)
+  (persons-involved
+           :present-as html 
+           :reader (lambda (project)
+                     (concatenate 
+                       'string 
+                       (let ((project-persons  (project-employees project)))
+                         (if project-persons
+                           (format nil "~{~A<br/>~}" (mapcar #'person-name project-persons))
+                           "<span class=\"value missing\">Nobody</span><br/>"))
+                       "<br/>"))))
 ;;; Form View
 (defview project-form-view (:type form :inherit-from '(:scaffold project)
 				  :caption "Projekt")
