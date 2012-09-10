@@ -39,7 +39,8 @@ available units."
 
 
 ;;; Data View
-(defview unit-data-view (:type data :inherit-from '(:scaffold unit))
+(defview unit-data-view (:type data :inherit-from '(:scaffold unit)
+			       :caption "Enhet")
   (id :hidep t))
 
 ;;; Form View

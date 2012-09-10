@@ -18,6 +18,10 @@ available projects."
    (handledare :accessor project-manager
 	       :initarg :project-manager)))
 
+;;; Data View
+(defview project-data-view (:type data :inherit-from '(:scaffold project))
+  (id :hidep t))
+
 ;;; Table View
 (defview project-table-view (:type table :inherit-from '(:scaffold project))
   (id :hidep t))
