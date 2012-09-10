@@ -4,7 +4,7 @@
 (defclass project-person ()
   ((id)
    (project :accessor project-person-project :initarg :project :type project)
-   (person :accessor project-person-person :initarg :person :type person)))
+   (person :accessor project-person-person :initarg :person :type employee)))
 
 (defun connect-projects-persons (projects persons)
   (loop for project in projects do 
