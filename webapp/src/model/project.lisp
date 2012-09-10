@@ -28,3 +28,7 @@ available projects."
 
 (defun get-projects-titles ()
   (mapcar #'project-title (all-projects)))
+
+(defun project-persons-list (project)
+  (let ((project-persons  (project-employees project)))
+    (format nil "~{~A~%~}" (mapcar #'person-name project-persons)))) 

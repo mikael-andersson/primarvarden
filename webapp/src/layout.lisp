@@ -60,6 +60,7 @@ employees page, companies page and projects page."
                           :item-data-view 'employee-data-view
                           :item-form-view 'employee-form-view)))
     (setf (pagination-items-per-page (dataseq-pagination-widget widget)) 5)
+    
     (make-instance 'widget :children
                    (list
                      (make-quickform (defview nil (:type form :persistp nil :buttons '((:submit . "Search") (:cancel . "Clear search")) :caption "Search by name")
@@ -89,13 +90,34 @@ employees page, companies page and projects page."
 (defun make-projects-page ()
   "Lays out the widgets for the projects page. It consists of a
 single GRIDEDIT widget."
-  (make-instance 'widget :children
-		 (list
-		  (make-instance 'gridedit
-				 :name 'projects-grid
-				 :data-class 'project
-				 :view 'project-table-view
-				 :item-form-view 'project-form-view))))
+  (let* ((grid (make-instance 'gridedit
+                              :name 'projects-grid
+                              :data-class 'project
+                              :view 'project-table-view
+                              :item-form-view 'project-form-view)) 
+         (filtering-widget 
+           (make-instance 
+             'weblocks-filtering-widget:filtering-widget 
+             :dataseq-instance grid
+             :form-fields 
+             (list 
+               (list 
+                 :id :title
+                 :caption "Title"
+                 :accessor #'project-title)
+               (list 
+                 :id :last-name 
+                 :caption "Manager"
+                 :accessor #'project-manager)
+               (list 
+                 :id :persons-list
+                 :caption "Persons list"
+                 :accessor #'project-persons-list))))) 
+
+    (make-instance 'widget :children
+                   (list
+                     filtering-widget 
+                     grid))))
 
 (defun make-units-page ()
   "Lays out the widgets for the units page. It consists of a

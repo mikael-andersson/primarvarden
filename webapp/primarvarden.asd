@@ -10,7 +10,7 @@
     :author "Slava Akhmechet"
     :licence "Public Domain"
     :description "primarvarden"
-    :depends-on (:weblocks :metatilities)
+    :depends-on (:weblocks :metatilities :weblocks-filtering-widget)
     :components ((:file "package")
                  (:module conf
 		  :components ((:file "stores"))
