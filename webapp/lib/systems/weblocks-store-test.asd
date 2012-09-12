@@ -1,1 +1,1 @@
-../../../quicklisp/dists/quicklisp/software/weblocks-20120305-git/weblocks-store-test.asd
+../../../quicklisp/dists/quicklisp/software/weblocks-20120909-git/weblocks-store-test.asd

@@ -1,1 +1,1 @@
-../../../quicklisp/dists/quicklisp/software/iterate-20120520-darcs/iterate.asd
+../../../quicklisp/dists/quicklisp/software/iterate-20120909-darcs/iterate.asd

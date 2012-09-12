@@ -1,1 +1,1 @@
-../../../quicklisp/dists/quicklisp/software/cl-who-0.11.1/cl-who.asd
+../../../quicklisp/dists/quicklisp/software/cl-who-1.1.1/cl-who.asd

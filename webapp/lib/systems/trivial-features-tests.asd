@@ -1,1 +1,1 @@
-../../../quicklisp/dists/quicklisp/software/trivial-features-20120407-git/trivial-features-tests.asd
+../../../quicklisp/dists/quicklisp/software/trivial-features-20120909-git/trivial-features-tests.asd

@@ -1,1 +1,1 @@
-../../../quicklisp/dists/quicklisp/software/closer-mop-20120703-darcs/closer-mop.asd
+../../../quicklisp/dists/quicklisp/software/closer-mop-20120909-darcs/closer-mop.asd
