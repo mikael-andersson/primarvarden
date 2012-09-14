@@ -1,1 +1,1 @@
-../../../quicklisp/dists/quicklisp/software/s-xml-20120520-cvs/s-xml.asd
+../../../quicklisp/dists/quicklisp/software/s-xml-20120909-cvs/s-xml.asd

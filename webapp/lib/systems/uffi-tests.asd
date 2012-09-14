@@ -1,1 +1,1 @@
-../../../quicklisp/dists/quicklisp/software/uffi-20120520-git/uffi-tests.asd
+../../../quicklisp/dists/quicklisp/software/uffi-20120909-git/uffi-tests.asd

@@ -1,1 +1,1 @@
-../../../quicklisp/dists/quicklisp/software/fare-matcher-20111203-git/fare-quasiquote-readtable.asd
+../../../quicklisp/dists/quicklisp/software/fare-matcher-20120811-git/fare-quasiquote-readtable.asd

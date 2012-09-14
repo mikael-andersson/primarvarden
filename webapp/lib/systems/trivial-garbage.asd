@@ -1,1 +1,1 @@
-../../../quicklisp/dists/quicklisp/software/trivial-garbage-20120703-git/trivial-garbage.asd
+../../../quicklisp/dists/quicklisp/software/trivial-garbage-20120811-git/trivial-garbage.asd
