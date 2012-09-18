@@ -40,10 +40,8 @@
 						     (:file "project")
 						     (:file "company")
 						     (:file "address")
-						     (:file "person"
-							    :depends-on ("address"))
 						     (:file "employee"
-							    :depends-on ("person"))
+							    :depends-on ("address"))
                              (:file "project-person" 
                                 :depends-on ("employee" "project"))))
                    (:module widgets 

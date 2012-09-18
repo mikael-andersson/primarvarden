@@ -2,7 +2,7 @@
 (in-package :primarvarden)
 
 ;;; Employee
-(defclass employee (person)
+(defclass employee ()
   ((id :accessor person-id)
    (förnamn :accessor person-first-name
             :initarg :first-name)
