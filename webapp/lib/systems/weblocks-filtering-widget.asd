@@ -1,0 +1,1 @@
+../../../quicklisp/local-projects/weblocks-filtering-widget/weblocks-filtering-widget.asd
