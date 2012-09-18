@@ -1,5 +1,16 @@
 (in-package :primarvarden)
 
+(defun reverse-cons (cons)
+  (cons (cdr cons) (car cons)))
+
+(defvar *role-types-choices* '(("Member" . :member)
+                               ("Projektledare" . :project-manager)
+                               ("Handledare" . :supervisor)
+                               ("Kontaktperson" . :contact-person) 
+                               ("Verksamhetschef" . :unit-manager)))
+
+(defvar *role-types-choices-reversed* (mapcar #'reverse-cons *role-types-choices*))
+
 (defwidget employees-grid (gridedit)
   ())
 
@@ -12,28 +23,40 @@
       (mark-dirty obj)
       (return-from employees-grid-add-persons-to-projects-flow))
 
-    (let ((initial-items-count (dataseq-data-count obj))
-          (choice-result (do-choice 
-                           "Please choose project to add persons to"
-                           (append 
-                             (get-projects-titles)
-                             '(:cancel)))))
-      (if (eq :cancel choice-result)
-        (return-from employees-grid-add-persons-to-projects-flow))
-      (let ((projects (find-by-values 'project :titel choice-result)))
+    (let* ((role-types-choices *role-types-choices*)
+           (choices-list (append (loop for i in role-types-choices collect (car i)) (list :cancel)))
+           (role-choice-result (do-choice "Please choose project role for which to add persons to project" choices-list))
+           (role))
+      (if (eq :cancel role-choice-result)
+        (return-from employees-grid-add-persons-to-projects-flow)) 
 
-        (ecase (car items)
-          ;; (:all ...)
-          (:none (connect-projects-persons projects (loop for i in (cdr items) append (find-by-values 'employee :id i)))))
+      (setf role (cdr (assoc role-choice-result role-types-choices :test #'string=)))
 
-        (mark-dirty obj :propagate t)
-        (flash-message (dataseq-flash obj) (format nil "Successfully added ~d persons to project ~s." (length (cdr items)) (project-title (car projects))))))))
+      (let ((initial-items-count (dataseq-data-count obj))
+            (choice-result (do-choice 
+                             "Please choose project to add persons to"
+                             (append 
+                               (get-projects-titles)
+                               '(:cancel)))))
+        (if (eq :cancel choice-result)
+          (return-from employees-grid-add-persons-to-projects-flow))
+        (let ((projects (find-by-values 'project :titel choice-result)))
+
+          (ecase (car items)
+            ;; (:all ...)
+            (:none (connect-projects-persons 
+                     projects 
+                     (loop for i in (cdr items) append (find-by-values 'employee :id i))
+                     role)))
+
+          (mark-dirty obj :propagate t)
+          (flash-message (dataseq-flash obj) (format nil "Successfully added ~d persons to project ~s." (length (cdr items)) (project-title (car projects)))))))))
 
 (defmethod dataedit-update-operations :around ((obj employees-grid) &key
 				   (delete-fn #'dataedit-delete-items-flow)
 				   (add-fn #'dataedit-add-items-flow))
   (call-next-method)
-  (pushnew (cons 'add-person-to-project #'employees-grid-add-persons-to-projects-flow)
+  (pushnew (cons 'add-to-project #'employees-grid-add-persons-to-projects-flow)
            (dataseq-item-ops obj)
            :key #'car))
 
