@@ -60,5 +60,5 @@
   (akademisk-grad :present-as (dropdown :choices '(:Disputerad :Docent :Professor :Doktorand :Predoktorand :Kandidat))
 	  :parse-as keyword)
   (yrke :present-as (checkboxes :choices '(:arbetsterapeut :barnmorska :distriktssköterska :läkare :psykolog  :sjukgymnast :sjuksköterska :socionom/kurator :specialistsjuksköterska :annan))
-	  :parse-as keyword))
+	  :parse-as checkboxes))
 
