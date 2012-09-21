@@ -100,6 +100,13 @@ h1, h2
   padding-left: 1.5em;
 }
 
+.view fieldset ul li
+{
+  list-style: none;
+  padding-left: 1.5em;
+  padding: 5px 5px 5px 1.5em;
+}
+
 .view div.submit, .form fieldset div.submit
 {
   padding-left: 13.5em;
@@ -115,7 +122,7 @@ h1, h2
 .view ul li .label, .view fieldset ul li label span.slot-name
 {
   display: -moz-inline-box;
-  display: inline-block;
+  display: block;
   width: 12em;
 }
 
