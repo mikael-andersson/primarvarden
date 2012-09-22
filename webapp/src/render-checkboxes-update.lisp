@@ -6,5 +6,6 @@
           (label (if (consp val) (car val) val))
           (value (if (consp val) (cdr val) val)))
     (with-html
-      (:div (:input :name (attributize-name name) :type "checkbox" :id id :class class
-	      :checked checked-p :value value (str (humanize-name label))))))))
+      (:div 
+        (:label (:input :name (attributize-name name) :type "checkbox" :id id :class class
+                 :checked checked-p :value value (str (humanize-name label)))))))))
