@@ -16,8 +16,6 @@
    (address :initform (make-instance 'address)
             :accessor person-address
             :initarg :address)
-   (FoUU-roll :accessor employee-contract
-              :initarg :FoUU-roll)
    (emails :accessor employee-emails :initarg :emails)
    (phone-numbers :accessor employee-phone-numbers :initarg :phone-numbers)))
 

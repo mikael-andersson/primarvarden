@@ -3,7 +3,6 @@
 ;;; Data View
 (defview employee-data-view (:type data :inherit-from 'person-data-view
 				   :caption "Person")
-  FoUU-roll 
   (projects-involved 
     :present-as html 
     :reader (lambda (person)

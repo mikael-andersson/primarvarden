@@ -85,8 +85,6 @@
                                                     t)))
                                               t))
                                :caption "Person")
-           (FoUU-roll :present-as (radio :choices '(:kontaktperson :projektledare :verksamhetschef))
-                         :parse-as keyword)
            (emails :present-as textarea :label "E-postadresser (<em>fyll i en per rad</em>)")
            (phone-numbers :present-as textarea :label "Telefonnummer (<em>fyll i ett per rad</em>)")))
 
