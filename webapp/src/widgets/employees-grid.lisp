@@ -11,6 +11,15 @@
 
 (defvar *role-types-choices-reversed* (mapcar #'reverse-cons *role-types-choices*))
 
+(defun project-role-pretty-presentation (role)
+  (cdr 
+    (assoc 
+      role
+      *role-types-choices-reversed*
+      :test #'string=)))
+
+
+
 (defwidget employees-grid (gridedit)
   ())
 
