@@ -187,7 +187,7 @@ input[type=hidden]
 /* Align text that spans in multiple lines in data and form views */ 
 .form ul li span.value, .data ul li span.value {
   display: inline-block;
-  width: 70%;
+/*  width: 70%;*/
 }
 
 .form ul li span.slot-name, .data ul li span.label {
