@@ -18,8 +18,9 @@
                  (:file "primarvarden"
 		  :depends-on ("conf" "package"))
 		 (:module src
-		  :components ((:file "layout"
-				      :depends-on (model "views" "widgets"))
+      :components ((:file "layout"
+          :depends-on (model "views" "widgets"))
+             (:file "render-checkboxes-update")
 			       (:file "snippets")
                    (:file "util")
                    (:file "views" :depends-on ("model"))
