@@ -93,8 +93,10 @@ employees page, companies page and projects page."
 single GRIDEDIT widget."
   (let* ((grid (make-instance 'gridedit
                               :name 'projects-grid
+			      :drilldown-type :view
                               :data-class 'project
                               :view 'project-table-view
+			      :item-data-view 'project-data-view
                               :item-form-view 'project-form-view)) 
          (filtering-widget 
            (make-instance 
@@ -102,7 +104,7 @@ single GRIDEDIT widget."
              :dataseq-instance grid
              :form-fields 
              (list 
-               (list 
+               (list
                  :id :title
                  :caption "Title"
                  :accessor #'project-title)
