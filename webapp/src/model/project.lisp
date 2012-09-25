@@ -14,9 +14,7 @@ available projects."
   ((id :accessor project-id)
    (titel :accessor project-title
 	  :initarg :project-title
-	  :type string)
-   (handledare :accessor project-manager
-	       :initarg :project-manager)))
+	  :type string)))
 
 ;;; Data View
 (defview project-data-view (:type data :inherit-from '(:scaffold project))
@@ -35,4 +33,4 @@ available projects."
 
 (defun project-persons-list (project)
   (let ((project-persons  (project-employees project)))
-    (format nil "~{~A~%~}" (mapcar #'person-name project-persons)))) 
+    (format nil "~{~A~%~}" (mapcar #'person-name project-persons))))
