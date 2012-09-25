@@ -100,13 +100,6 @@ h1, h2
   padding-left: 1.5em;
 }
 
-.view fieldset ul li
-{
-  list-style: none;
-  padding-left: 1.5em;
-  padding: 5px 5px 5px 1.5em;
-}
-
 .view div.submit, .form fieldset div.submit
 {
   padding-left: 13.5em;
@@ -182,6 +175,13 @@ input[type=hidden]
 .data, .form
 {
   width: 27em;
+}
+
+.form ul li, .data ul li
+{
+  list-style: none;
+  padding-left: 1.5em;
+  padding: 5px 5px 5px 1.5em;
 }
 
 /* Align text that spans in multiple lines in data and form views */ 
