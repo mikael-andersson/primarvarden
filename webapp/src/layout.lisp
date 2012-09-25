@@ -109,10 +109,6 @@ single GRIDEDIT widget."
                  :caption "Title"
                  :accessor #'project-title)
                (list 
-                 :id :last-name 
-                 :caption "Manager"
-                 :accessor #'project-manager)
-               (list 
                  :id :persons-list
                  :caption "Persons list"
                  :accessor #'project-persons-list))))) 
