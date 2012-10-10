@@ -6,8 +6,7 @@
 (defvar *role-types-choices* '(("Member" . :member)
                                ("Projektledare" . :project-manager)
                                ("Handledare" . :supervisor)
-                               ("Kontaktperson" . :contact-person) 
-                               ("Verksamhetschef" . :unit-manager)))
+                               ("Kontaktperson" . :contact-person)))
 
 (defvar *role-types-choices-reversed* (mapcar #'reverse-cons *role-types-choices*))
 
