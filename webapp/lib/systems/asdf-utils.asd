@@ -1,0 +1,1 @@
+../../../quicklisp/dists/quicklisp/software/asdf-utils-20120909-git/asdf-utils.asd

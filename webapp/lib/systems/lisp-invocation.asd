@@ -1,0 +1,1 @@
+../../../quicklisp/dists/quicklisp/software/xcvb-0.588/lisp-invocation.asd

@@ -1,0 +1,1 @@
+../../../quicklisp/local-projects/cl-config/cl-config.asd

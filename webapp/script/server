@@ -1,15 +1,26 @@
-PROJECT_ROOT=`dirname $0`/../
-USER=cl-user
+# This script takes two optional arguments:
+# if only the argument string "home" is passed, sbcl must be located in the invoking user's home folder.
+# if the second argument, that specifies a user, also is passed, sbcl must be located in that particular user's home folder.
+# if no arguments are passed, we assume the paths for sbcl are already setup properly.
+
+# Absolute path to this script. /home/user/bin/foo.sh
+SCRIPT=$(readlink -f $0)
+# Absolute path this script is in. /home/user/bin
+SCRIPTPATH=$(dirname $SCRIPT)
+PROJECT_ROOT=$SCRIPTPATH/../..
+
+[ "$2" ] && USER=$2
 HOME=/home/$USER
 SBCL_BIN=sbcl
 
 if [ "$1" = "home" ]
    then
-   SBCL_BIN=$HOME/bin/sbcl
-   SBCL_HOME=$HOME/lib/sbcl
+   SBCL_BIN=$PROJECT_ROOT/sbcl/bin/sbcl
+   SBCL_HOME=$PROJECT_ROOT/sbcl/lib/sbcl
    SBCL_CORE="--core $SBCL_HOME/sbcl.core"
 fi
 SWANK_PORT=4005
 WEBLOCKS_PORT=8080
 echo "Project root: $PROJECT_ROOT"
-$SBCL_BIN $SBCL_CORE --userinit $PROJECT_ROOT/primarvarden.sbclrc $PROJECT_ROOT $WEBLOCKS_PORT $SWANK_PORT --no-linedit
+
+$SBCL_BIN $SBCL_CORE --userinit $PROJECT_ROOT/webapp/primarvarden.sbclrc $PROJECT_ROOT/webapp/ $WEBLOCKS_PORT $SWANK_PORT --no-linedit
