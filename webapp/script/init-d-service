@@ -18,7 +18,7 @@ PATH=/bin:/usr/bin
 DESC="Primärvården web application"
 NAME=primarvarden
 DAEMON="/home/$USER/www/script/server"
-DAEMON_ARGS="home"
+DAEMON_ARGS="home $USER"
 SCRIPTNAME="/etc/init.d/$NAME"
 SOCKET_DIR="/var/run/screen/S-$USER"
 
@@ -35,8 +35,6 @@ fi
 
 service_stopped()
 {
-    socket=`sudo -u $USER find "$SOCKET_DIR" ! -empty`
-#    if [ -z "$socket" ]
     if [ -z $(sudo -u $USER find "$SOCKET_DIR" -not -empty -type d) ]
     then
 	echo "Web app is not running."
