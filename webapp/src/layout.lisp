@@ -34,10 +34,10 @@ employees page, companies page and projects page."
                   ;;                                   framework written in Common
                   ;;                                   Lisp.")))
 		  (make-navigation "Main Menu"
-				   (list "Personer" (make-employees-page) "employees")
-;;				   (list "Ägare" (make-companies-page) "companies")
-				   (list "Projekt" (make-projects-page) "projects")
-				   (list "Enheter" (make-units-page) "units")))))
+				   (list "Persons" (make-employees-page) "employees")
+				   (list "Companies" (make-companies-page) "companies")
+				   (list "Projects" (make-projects-page) "projects")
+				   (list "Units" (make-units-page) "units")))))
 
 (defun make-employees-page ()
   "Lays out the widgets for the employees page. It consists of a
@@ -77,16 +77,16 @@ employees page, companies page and projects page."
                                                   (mark-dirty widget)))
                      widget))))
 
-;; (defun make-companies-page ()
-;;   "Lays out the widgets for the companies page. It consists of a
-;; single GRIDEDIT widget."
-;;   (make-instance 'widget :children
-;; 		 (list
-;; 		  (make-instance 'gridedit
-;; 				 :name 'companies-grid
-;; 				 :data-class 'company
-;; 				 :view 'company-table-view
-;; 				 :item-form-view 'company-form-view))))
+(defun make-companies-page ()
+  "Lays out the widgets for the companies page. It consists of a
+single GRIDEDIT widget."
+  (make-instance 'widget :children
+		 (list
+		  (make-instance 'gridedit
+				 :name 'companies-grid
+				 :data-class 'company
+				 :view 'company-table-view
+				 :item-form-view 'company-form-view))))
 
 (defun make-projects-page ()
   "Lays out the widgets for the projects page. It consists of a

@@ -4,14 +4,14 @@
 ;;; Employee
 (defclass employee ()
   ((id :accessor person-id)
-   (förnamn :accessor person-first-name
+   (first-name :accessor person-first-name
             :initarg :first-name)
-   (efternamn :accessor person-last-name
+   (last-name :accessor person-last-name
               :initarg :last-name
               :type string)
-   (akademisk-grad :accessor person-academic-grade
+   (academic-grade :accessor person-academic-grade
                    :initarg :academic-grade)
-   (yrke :accessor person-profession
+   (profession :accessor person-profession
          :initarg :profession)
    (address :initform (make-instance 'address)
             :accessor person-address
@@ -38,8 +38,8 @@
 ;;; Table View
 (defview person-table-view (:type table :inherit-from '(:scaffold employee))
   (id :hidep t)
-  (akademisk-grad :hidep t)
-  (yrke :hidep t)
+  (academic-grade :hidep t)
+  (profession :hidep t)
   (address :hidep t)
   (street :hidep t)
   (city :hidep t))
@@ -55,8 +55,8 @@
   (id :hidep t)
   (address :type mixin
 	   :view 'address-form-view)
-  (akademisk-grad :present-as (dropdown :choices '(:Disputerad :Docent :Professor :Doktorand :Predoktorand :Kandidat))
+  (academic-grade :present-as (dropdown :choices '(:PhD :associate-Professor :Professor :PhD-student :graduate))
 	  :parse-as keyword)
-  (yrke :present-as (checkboxes :choices '(:arbetsterapeut :barnmorska :distriktssköterska :läkare :psykolog  :sjukgymnast :sjuksköterska :socionom/kurator :specialistsjuksköterska :annan))
+  (profession :present-as (checkboxes :choices '(:occupational-therapist :midwife :district-nurse :doctor :psychologist  :physiotherapist :nurse :social-worker/counselor :specialist nurse :other))
 	  :parse-as checkboxes))
 

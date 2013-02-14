@@ -4,9 +4,9 @@
   (cons (cdr cons) (car cons)))
 
 (defvar *role-types-choices* '(("Member" . :member)
-                               ("Projektledare" . :project-manager)
-                               ("Handledare" . :supervisor)
-                               ("Kontaktperson" . :contact-person)))
+                               ("Project manager" . :project-manager)
+                               ("Supervisor" . :supervisor)
+                               ("Contact person" . :contact-person)))
 
 (defvar *role-types-choices-reversed* (mapcar #'reverse-cons *role-types-choices*))
 
@@ -48,7 +48,7 @@
                                '(:cancel)))))
         (if (eq :cancel choice-result)
           (return-from employees-grid-add-persons-to-projects-flow))
-        (let ((projects (find-by-values 'project :titel choice-result)))
+        (let ((projects (find-by-values 'project :title choice-result)))
 
           (ecase (car items)
             ;; (:all ...)
@@ -81,8 +81,8 @@
                                             (if (webapp-session-value validate-predicate-key)
                                               (let ((employees-with-same-name-and-last-name 
                                                       (find-by-values 'employee 
-                                                                      :förnamn (getf args :förnamn) 
-                                                                      :efternamn (getf args :efternamn))))
+                                                                      :first-name (getf args :first-name) 
+                                                                      :last-name (getf args :last-name))))
                                                 (if (and (not (webapp-session-value session-key)) employees-with-same-name-and-last-name)
                                                   (progn 
                                                     (setf (webapp-session-value session-key) t)
@@ -93,8 +93,8 @@
                                                     t)))
                                               t))
                                :caption "Person")
-           (emails :present-as textarea :label "E-postadresser (<em>fyll i en per rad</em>)")
-           (phone-numbers :present-as textarea :label "Telefonnummer (<em>fyll i ett per rad</em>)")))
+           (emails :present-as textarea :label "E-mail addresses (<em>enter one per row</em>)")
+           (phone-numbers :present-as textarea :label "Phone number (<em>enter one per row</em>)")))
 
 ; This update needed to fix bug
 ; source: weblocks-20120305-git/src/views/types/presentations/radio.lisp

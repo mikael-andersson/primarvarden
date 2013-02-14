@@ -3,10 +3,10 @@
 
 ;;; Address
 (defclass address ()
-  ((gata :initform nil
+  ((street :initform nil
 	   :accessor address-street
 	   :initarg :street)
-   (stad :initform nil
+   (city :initform nil
 	 :accessor address-city
 	 :initarg :city)))
 

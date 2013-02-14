@@ -35,14 +35,14 @@
                        "<br/>"))
 
 (defview project-data-view (:type data :inherit-from '(:scaffold project)
-				  :caption "Projekt")
+				  :caption "Project")
   (id :hidep t)
   (persons-involved
            :present-as html 
            :reader #'project-persons-involved-reader))
 ;;; Form View
 (defview project-form-view (:type form :inherit-from '(:scaffold project)
-				  :caption "Projekt")
+				  :caption "Project")
   (id :hidep t)
   (persons-involved 
            :present-as html 

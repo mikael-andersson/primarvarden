@@ -12,7 +12,7 @@ available projects."
 ;;; Project
 (defclass project ()
   ((id :accessor project-id)
-   (titel :accessor project-title
+   (title :accessor project-title
 	  :initarg :project-title
 	  :type string)))
 
