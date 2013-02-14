@@ -135,8 +135,8 @@ p.validation-error span.validation-error-heading
 /* Radio buttons */
 form.view fieldset ul li label.radio
 {
-  display: block;
-  margin-left: 12em;
+  display: inline;
+  margin-left: 6em;
 }
 
 form.view >/**/fieldset ul li label.radio
