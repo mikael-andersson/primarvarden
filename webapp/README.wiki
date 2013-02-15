@@ -1,9 +1,10 @@
 = Primarvarden app = 
 
 == script directory ==
-*script/server* - run server
-*script/server-screen* run server as a daemon
+*script/server* - run server, read documentation in the script for how it works.
+*script/init-d-service* run server as a daemon. Create a symbolic link to the directory /etc/init.d
 *script/update-libraries-links* link all asds from quicklisp systems directory and local-projects directory to lib/systems. Does not overwrite links
+*script/selenium-server* see section below
 
 == data directory ==
 Database snapshots directory
