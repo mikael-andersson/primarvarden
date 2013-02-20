@@ -47,7 +47,7 @@ service_stopped()
 
 case "$1" in
   start)
-        if service_stopped && sudo -u $USER screen -d -m -S $NAME $DAEMON $DAEMON_ARGS; then
+        if service_stopped && sudo -u $USER screen -d -m -S $NAME $DAEMON; then
             log_daemon_msg "Starting web app" "$NAME"
             log_end_msg 0
         else
