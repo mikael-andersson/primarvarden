@@ -18,7 +18,6 @@ PATH=/bin:/usr/bin
 DESC="Primärvården web application"
 NAME=primarvarden
 DAEMON="/home/$USER/www/script/server"
-DAEMON_ARGS="$USER"
 SCRIPTNAME="/etc/init.d/$NAME"
 SOCKET_DIR="/var/run/screen/S-$USER"
 

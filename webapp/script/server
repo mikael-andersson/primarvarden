@@ -1,19 +1,22 @@
 #!/bin/bash
 
-# if no argument is passed, we run the sbcl version from the submodule of the repository in which this script reside.
-[ -z "$*" ] && 
-
 # Absolute path to this script. /home/user/bin/foo.sh
 SCRIPT=$(readlink -f $0)
 # Absolute path this script is in. /home/user/bin
 SCRIPTPATH=$(dirname $SCRIPT)
 PROJECT_ROOT=$SCRIPTPATH/../..
 
+# no args: run SBCL from repo with the invoking user
+usage(){
+    echo -e "Usage: $0 username 
+no args: Passing no args, SBCL is run from the submodule of the repository
+in which this script reside.
+1st arg: username (e.g. 'root' requires SBCL installed as root)"
+}
+
+usage;
+
 if [ -z "$*" ]; then
-    echo -e "\nTrying to run SBCL from the submodule of the repository
-in which this script reside. Pass an argument to specify another location.
-Valid values are 'root' (opt this if SBCL is installed as root) or
-a username for a user with SBCL installed in its home directory."
    SBCL_BIN=$PROJECT_ROOT/sbcl/bin/sbcl
    SBCL_HOME=$PROJECT_ROOT/sbcl/lib/sbcl
    SBCL_CORE="--core $SBCL_HOME/sbcl.core"
@@ -25,6 +28,7 @@ else
       USER=$1
       HOME=/home/$USER
       [ ! -d "$HOME" ] && echo "The user does not exist." && exit;
+      [ -z "$SBCL_HOME" ] && echo "The environment variable SBCL_HOME is not defined." && exit;
   fi
 fi
 
