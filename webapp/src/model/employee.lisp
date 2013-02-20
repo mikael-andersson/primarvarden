@@ -1,6 +1,14 @@
 
 (in-package :primarvarden)
 
+;;; All companies
+(defun all-employees (&optional arg)
+  "Accepts an argument (passed by dropdown choices) and returns all
+available employees."
+  (declare (ignore arg))
+  (find-persistent-objects *prevalence-store* 'employee
+			   :order-by (cons 'name :asc)))
+
 ;;; Employee
 (defclass employee ()
   ((id :accessor person-id)
