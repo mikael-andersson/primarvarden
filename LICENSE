@@ -1,0 +1,14 @@
+primarvarden is a prototype web application to manage research projects in the primary care.
+Copyright (C) 2013 Mikael Andersson (mikael@fripost.org), Olexiy Zamkoviy (olexiy.z@gmail.com)
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation (LGPL with
+Franz's preamble that resolves some Lisp related ambiguities).
+The license is located at the following path in the repository:
+quicklisp/dists/quicklisp/software/weblocks-*-git/license.txt
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
