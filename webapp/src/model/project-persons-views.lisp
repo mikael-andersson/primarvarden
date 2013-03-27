@@ -40,6 +40,7 @@
   (persons-involved
            :present-as html 
            :reader #'project-persons-involved-reader))
+
 ;;; Form View
 (defview project-form-view (:type form :inherit-from '(:scaffold project)
 				  :caption "Project")
