@@ -11,7 +11,7 @@
 ### END INIT INFO
 
 # Author:
-#   Mikael Andersson <mikael@gnutiken.se>
+#   Mikael Andersson <mikael@fripost.org>
 
 USER="cl-user"
 PATH=/bin:/usr/bin
@@ -73,7 +73,7 @@ case "$1" in
     ;;
     
     *)
-        log_action_msg "Usage: /etc/init.d/primarvarden {start|stop|status|restart}"
+        log_action_msg "Usage: $SCRIPTNAME {start|stop|status|restart}"
         exit 1
     ;;
 esac
