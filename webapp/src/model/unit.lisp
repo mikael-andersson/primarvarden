@@ -7,7 +7,6 @@
 available units."
   (declare (ignore arg))
   (find-persistent-objects *prevalence-store* 'unit
-;  (find-persistent-objects (sandbox-store) 'unit
 			   :order-by (cons 'name :asc)))
 
 ;;; Unit
@@ -25,7 +24,10 @@ available units."
 	 :initarg :unit-city)
    (company :accessor unit-company
 	  :initarg :company)
-;	  :type company)
+   (unit-manager :initform nil
+          :accessor unit-manager
+          :type (or employee-t null)
+          :initarg :unit-manager)
    (unit-type :accessor unit-typ-av-enhet
 	     :initarg :typ-av-enhet)))
 
@@ -54,5 +56,6 @@ available units."
 	   :parse-as (object-id :class-name 'company)
 	   :reader (compose #'object-id #'unit-company)
 	   :requiredp t)
+  (unit-manager :present-as suggest)
   (unit-type :present-as (dropdown :choices '(:health-center :nursing-center :maternity-care-center :rehab :annan))
 		:parse-as keyword))
