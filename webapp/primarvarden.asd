@@ -13,42 +13,37 @@
     :depends-on (:weblocks :metatilities :weblocks-filtering-widget)
     :components ((:file "package")
                  (:module conf
-		  :components ((:file "stores"))
-                  :depends-on ("package"))
+			  :components ((:file "stores"))
+			  :depends-on ("package"))
                  (:file "primarvarden"
-		  :depends-on ("conf" "package"))
+			:depends-on ("conf" "package"))
 		 (:module src
-      :components ((:file "layout"
-          :depends-on (model "views" "widgets"))
-             (:file "render-checkboxes-update")
-			       (:file "snippets")
-                   (:file "util")
-                   (:file "views" :depends-on ("model"))
-;			       (:file "sandbox"
-;				      :depends-on (model))
-			       (:file "init-session"
-				      :depends-on ("layout" "snippets"))
-;				      :depends-on ("layout" "snippets" "sandbox"))
-;			       (:module views
-;					:components ((:module types
-;							      :components ((:file "hsn")))))
-;						     :depends-on (view formview dataview)))
-;					:depends-on ("weblocks" "dependencies" utils))
-			       (:module model
-                    :depends-on ("util")
-					:components ((:file "unit"
-							    :depends-on ("company"))
-						     (:file "project")
-						     (:file "company")
-						     (:file "address")
-						     (:file "employee"
-							    :depends-on ("address"))
-                             (:file "project-person" 
-                                :depends-on ("employee" "project"))))
-                   (:module widgets 
-                    :depends-on ("util" "model")
-                    :components ((:file "employees-grid"))))
-		  :depends-on ("primarvarden" conf package))))
+			  :components ((:file "layout"
+					      :depends-on (model "widgets"))
+				       (:file "render-checkboxes-update")
+				       (:file "snippets")
+				       (:file "util")
+				       (:file "init-session"
+					      :depends-on ("layout" "snippets"))
+				       (:module model
+						:depends-on ("util")
+						:components ((:file "unit"
+								    :depends-on ("company" "suggest-presentation"))
+							     (:file "project-persons-views"
+								    :depends-on ("project"))
+							     (:file "suggest-presentation"
+								    :depends-on ("employee"))
+							     (:file "project")
+							     (:file "company")
+							     (:file "address")
+							     (:file "employee"
+								    :depends-on ("address"))
+							     (:file "project-person" 
+								    :depends-on ("employee" "project"))))
+				       (:module widgets 
+						:depends-on ("util" "model")
+						:components ((:file "employees-grid"))))
+			  :depends-on ("primarvarden" conf package))))
 
 (defpackage #:primarvarden-tests-asd
   (:use :cl :asdf))
