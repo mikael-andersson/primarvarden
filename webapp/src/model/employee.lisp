@@ -1,6 +1,20 @@
 
 (in-package :primarvarden)
 
+(eval-when (:compile-toplevel :load-toplevel :execute)
+  (defun employee-p (obj)
+    (and (stringp obj)
+	 (employee-name-exists-p obj))))
+
+(deftype employee-t ()
+  '(satisfies employee-p))
+
+(defun all-names ()
+  (mapcar #'person-name (all-employees)))
+
+(defun employee-name-exists-p (obj)
+  (member obj (all-names) :test #'string=))
+
 ;;; All companies
 (defun all-employees (&optional arg)
   "Accepts an argument (passed by dropdown choices) and returns all
