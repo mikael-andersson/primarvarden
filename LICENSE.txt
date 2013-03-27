@@ -1,4 +1,6 @@
-primarvarden is a prototype web application to manage research projects in the primary care.
+primarvarden is a prototype web application to manage research
+projects in the primary care.
+
 Copyright (C) 2013 Mikael Andersson (mikael@fripost.org), Olexiy Zamkoviy (olexiy.z@gmail.com)
 
 This library is free software; you can redistribute it and/or
