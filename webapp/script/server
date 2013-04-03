@@ -19,7 +19,7 @@ usage;
 if [ -z "$*" ]; then
    SBCL_BIN=$PROJECT_ROOT/sbcl/bin/sbcl
    SBCL_HOME=$PROJECT_ROOT/sbcl/lib/sbcl
-   SBCL_CORE="--core $SBCL_HOME/sbcl.core"
+   SBCL_CORE="--core $PROJECT_ROOT"/sbcl/lib/sbcl/sbcl.core
 else
 # an argument is passed with the user name.
   if [ "$1" = "root" ]; then
