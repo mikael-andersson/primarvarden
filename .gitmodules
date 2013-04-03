@@ -1,6 +1,6 @@
 [submodule "quicklisp"]
 	path = quicklisp
-	url = git@mikael.dyndns-home.com:quicklisp
+	url = https://github.com/mikael-andersson/quicklisp.git
 [submodule "sbcl"]
 	path = sbcl
-	url = git@mikael.dyndns-home.com:sbcl
+	url = https://github.com/mikael-andersson/sbcl.git
