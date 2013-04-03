@@ -1,9 +1,10 @@
 # Installation
 You do not need to install anything since the git repository holds all necessary libraries and the compiler and runtime SBCL.
 
-# Directory structure and relevant files
+# Directory structure and most relevant files and directories
 * primarvarden/: main git repository
     * quicklisp/: libraries such as weblocks and all its dependencies, git submodule
+        * local-projects/: local project that isn't part of Quicklisp.
     * sbcl/: compiler and runtime, git submodule
     * webapp/: the web application itself
         * data/: database snapshots directory
