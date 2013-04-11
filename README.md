@@ -5,7 +5,7 @@ You do not need to install anything since the git repository holds all necessary
 * primarvarden/: main git repository
     * quicklisp/: libraries such as weblocks and all its dependencies, git submodule
         * local-projects/: local project that isn't part of Quicklisp.
-    * sbcl/: compiler and runtime, git submodule
+    * sbcl/: compiler and runtime for Linux 64 bit, git submodule
     * webapp/: the web application itself
         * data/: database snapshots directory
         * script/server: run server, read documentation in the script for how it works.
