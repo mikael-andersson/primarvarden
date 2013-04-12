@@ -20,9 +20,9 @@
 				      (lisp-implementation-version))) ")")|#
 	    (:p :id "description" :style "color:white;"
 		"Based on the Common Lisp web framework "
-		(:a :href "http://weblocks.viridian-project.de/" "Weblocks") "and the demo app weblocks-demo.")
+		(:a :href "http://weblocks.viridian-project.de/" "Weblocks") " and the demo app weblocks-demo.")
 	    (:p :id "contact-info" :style "color:white;"
-		"Developed by " (:a :href "mailto:mikael@fripost.org" "Mikael Andersson") "and "
+		"Developed by " (:a :href "mailto:mikael@fripost.org" "Mikael Andersson") " and "
 		(:a :href "mailto:olexiy.z@gmail.com" "Olexiy Zamkoviy"))
 	    (:br)
 	    
