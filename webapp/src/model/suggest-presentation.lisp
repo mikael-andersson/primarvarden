@@ -10,18 +10,6 @@
   "If true, suggest snippet will be used to render suggest types in
 forms. A simple dropdown will be used otherwise.")
 
-(defun suggest-p (str)
-  "Used by the type specifier 'suggest' to determine if the string is a
-valid value."
-  (not (null (member str (mapcar #'person-name (all-employees)) :test #'string=))))
-
-;; (find value (mapcar #'person-name (all-employees)) :test #'equalp)))))
-
-
-(deftype suggest-t ()
-;  'string)
-  '(satisfies suggest-p))
-
 (defclass suggest-presentation (input-presentation)
   ((use-suggest-p :initform *use-suggest*
 		  :initarg :use-suggest-p
