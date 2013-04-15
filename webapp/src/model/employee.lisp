@@ -15,6 +15,15 @@
 (defun employee-name-exists-p (obj)
   (member obj (all-names) :test #'string=))
 
+;;; Scaffolding magic
+(defmethod typespec->view-field-presentation ((scaffold form-scaffold)
+					      (typespec (eql 'employee-t)) args)
+  (values t (make-instance 'suggest-presentation)))
+
+(defmethod typespec->form-view-field-parser ((scaffold form-scaffold)
+					     (typespec (eql 'employee-t)) args)
+  (values t (make-instance 'suggest-parser)))
+
 ;;; All companies
 (defun all-employees (&optional arg)
   "Accepts an argument (passed by dropdown choices) and returns all

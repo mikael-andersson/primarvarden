@@ -76,15 +76,6 @@ forms. A simple dropdown will be used otherwise.")
 ;;     (when db-item 
 ;;       (values t t db-item))))
 
-;;; Scaffolding magic
-(defmethod typespec->view-field-presentation ((scaffold form-scaffold)
-					      (typespec (eql 'employee-t)) args)
-  (values t (make-instance 'suggest-presentation)))
-
-(defmethod typespec->form-view-field-parser ((scaffold form-scaffold)
-					     (typespec (eql 'employee-t)) args)
-  (values t (make-instance 'suggest-parser)))
-
 (defmethod dependencies append ((self suggest-presentation))
   (when (suggest-presentation-use-suggest-p self)
     (list (make-local-dependency :stylesheet "suggest"))))
