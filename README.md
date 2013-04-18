@@ -1,11 +1,14 @@
+# License
+See LICENSE.txt for the license text and for a short description of the project.
+
 # Installation
-You do not need to install anything since the git repository holds all necessary libraries and the compiler and runtime SBCL (Linux 64 bit).
+You do not need to install anything since the Git repository holds all necessary libraries (libs) and the compiler and runtime SBCL (Linux 64 bit). The Git repository consist of the Git submodules quicklisp and sbcl, which are required for it to run. If already have sbcl and the quicklisp libs, then it is not a necessity to clone them. You need however to make sure that you have the right libs in quicklisp and a version of sbcl that will work.
 
 # Directory structure and most relevant files and directories
-* primarvarden/: main git repository
-    * quicklisp/: libraries such as weblocks and all its dependencies, git submodule
+* primarvarden/: main Git repository
+    * quicklisp/: libs such as weblocks and all its dependencies, Git submodule
         * local-projects/: local project that isn't part of Quicklisp.
-    * sbcl/: compiler and runtime for Linux 64 bit, git submodule
+    * sbcl/: compiler and runtime for Linux 64 bit, Git submodule
     * webapp/: the web application itself
         * data/: database snapshots directory
         * script/server: run server, read documentation in the script for how it works.

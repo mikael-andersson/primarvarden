@@ -1,5 +1,8 @@
-primarvarden is a prototype web application to manage research
+(English) primarvarden is a prototype web application to manage research
 projects in the primary care.
+
+(Swedish) primarvarden är en webbapplikation, utvecklad som en prototyp,
+för att hantera forskningsprojekt inom Primärvården. 
 
 Copyright (C) 2013 Mikael Andersson (mikael@fripost.org), Olexiy Zamkoviy (olexiy.z@gmail.com)
 
