@@ -1,1 +1,1 @@
-../../../quicklisp/dists/quicklisp/software/usocket-0.5.5/usocket-test.asd
+../../../quicklisp/dists/quicklisp/software/usocket-0.6.0.1/usocket-test.asd
