@@ -56,6 +56,6 @@ available units."
 	   :parse-as (object-id :class-name 'company)
 	   :reader (compose #'object-id #'unit-company)
 	   :requiredp t)
-  (unit-manager :present-as suggest)
+  (unit-manager :present-as (suggest :function #'all-names))
   (unit-type :present-as (dropdown :choices '(:health-center :nursing-center :maternity-care-center :rehab :annan))
 		:parse-as keyword))

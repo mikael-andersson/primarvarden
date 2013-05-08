@@ -27,9 +27,7 @@ forms. A simple dropdown will be used otherwise.")
 	       :accessor suggest-presentation-choices-id
 	       :documentation "A choices ID passed to suggest.")
    (function :accessor get-function
-	     :initarg :function
-;;	     :initform nil)))
-	     :initform #'all-names)))
+	     :initarg :function)))
 
 (defmethod render-view-field-value (value (presentation suggest-presentation) 
 				    (field form-view-field) (view form-view) widget obj
