@@ -26,6 +26,3 @@ Make sure to change the environment variables USER and DAEMON to your environmen
 If you would like the application to start automatically when booting your computer. First make sure you have done above things. Install the init script as a startup script with:
 update-rc.d primarvarden defaults (e.g. for Debian and Ubuntu systems)
 
-# Demo application
-Have a look at:
-http://ec2-54-244-144-147.us-west-2.compute.amazonaws.com/primarvarden/
